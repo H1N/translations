@@ -1,0 +1,1430 @@
+# encoding: UTF-8
+--- 
+de: 
+  faker:
+    shift_categories: [Bar, Service, Runner, Office, Terasse, Wintergarten, Einlass, Verkauf, Lounge]
+    address:
+      city_prefix: [Nord, Ost, West, Süd, Neu, Alt, Bad]
+      city_suffix: [stadt, dorf, land, scheid, burg]
+      country: [Afghanistan, Ägypten, Albanien, Algerien, Amerikanisch Samoa, Andorra, Angola, Anguilla, Antarktis, Antigua und Barbuda, Äquatorialguinea, Australien, Argentinien, Armenien, Aruba, Aserbaidschan, Äthiopien, Bahamas, Bahrain, Bangladesch, Barbados, Belarus, Belgien, Belize, Benin, Bermudas, Bhutan, Bolivien, Bosnien-Herzigowina, Botsuana, Brasilien, Britische Jungferninseln, Brunei Darussalam, Bulgarien, Burkina Faso, Burundi, Chile, China, Christmas-Inseln, Cookinseln, Costa Rica, Dänemark, Deutschland, Dschibuti, Dominica, Dominikanische Republik, Ecuador, Elfenbeinküste, El Salvador, Eritrea, Falklandinseln, Färöer, Fidschi, Finnland, Frankreich, Französisch-Guayana, Französisch-Polynesien, Französische Süd- und Antarktisgebiete, Gabun, Gambia, Georgien, Ghana, Gibraltar, Griechenland, Grenada, Großbritannien, Guadeloupe, Guatemala, Guernsey, Guinea, Guinea-Bissau, Guyana, Haiti, Honduras, Hongkong, Island, Indien, Indonesien, Iran, Irak, Irland, Israel, Italien , Jamaika, Japan, Jemen , Jordanien, Kambodscha, Kamerun, Kanada, Kap Verde, Kaimaninseln, Kasachstan, Katar, Kenia, Kolumbien, Komoren, Kiribati, Kroatien, Kuba, Nordkorea     , Kuwait, Kirgistan, Laos, Lettland, Libanon, Lesotho, Liberia, Libyen, Liechtenstein, Litauen, Luxemburg, Macau, Mazedonien, Madagaskar, Malawi, Malaysia, Malediven, Mali, Malta, Martinique, Mauretanien, Mauritius, Mayotte, Mexiko, Mikronesien                       , Moldau (Republik), Monaco, Mongolei, Montenegro (Republik), Montserrat, Marokko, Mosambik, Myanmar, Namibia, Nauru, Nepal, Niederlande, Niederländische Antillen, Neukaledonien, Neuseeland, Nicaragua, Niger, Nigeria, Norfolkinseln (Australien), Norwegen, Oman, Österreich, Pakistan, Panama, Papua-Neuguinea, Paraguay, Peru, Philippinen, Polen, Portugal, Puerto Rico, Rumänien, Russische Föderation, Randa, Sambia, Salomonen, Samoa, San Marino, Sao Tome and Principe, Saudi Arabien, Senegal, Serbien , Seychellen, Sierra Leone, Singapur, Slowakei, Slowenien, Somalia, Spanien, Südafrika, Südkorea, Sudan, Suriname, Sri Lanka, St. Lucia, St. Helena, St. Kitts and Nevis, St. Pierre and Miquelon, St. Vincent and The Grenadines, Swasiland, Schweden, Schweiz, Syrien , Taiwan, Tadschikistan, Tansania, Thailand, Togo, Tonga, Trinidad und Tobago, Tschad, Tschechische Republik, Timor-Leste, Tunesien, Türkei, Turkmenistan, Turks- und Caicosinseln, Tuvalu, Uganda, Ungarn, Ukraine, Uruguay, USA, Usbekistan , Vanuatu, Vatikanstadt, Venezuela, Vereinigte Arabische Emirate, Vietnam, Wallis and Futuna, Zentralafrikanische Republik, Zypern]
+      street_address: ['####', '###', '##', '#', '##a', '##b', '##c']
+      street_suffix: [Alley, Avenue, Branch, Bridge, Brook, Brooks, Burg, Burgs, Bypass, Camp, Canyon, Cape, Causeway, Center, Centers, Circle, Circles, Cliff, Cliffs, Club, Common, Corner, Corners, Course, Court, Courts, Cove, Coves, Creek, Crescent, Crest, Crossing, Crossroad, Curve, Dale, Dam, Divide, Drive, Drive, Drives, Estate, Estates, Expressway, Extension, Extensions, Fall, Falls, Ferry, Field, Fields, Flat, Flats, Ford, Fords, Forest, Forge, Forges, Fork, Forks, Fort, Freeway, Garden, Gardens, Gateway, Glen, Glens, Green, Greens, Grove, Groves, Harbor, Harbors, Haven, Heights, Highway, Hill, Hills, Hollow, Inlet, Inlet, Island, Island, Islands, Islands, Isle, Isle, Junction, Junctions, Key, Keys, Knoll, Knolls, Lake, Lakes, Land, Landing, Lane, Light, Lights, Loaf, Lock, Locks, Locks, Lodge, Lodge, Loop, Mall, Manor, Manors, Meadow, Meadows, Mews, Mill, Mills, Mission, Mission, Motorway, Mount, Mountain, Mountain, Mountains, Mountains, Neck, Orchard, Oval, Overpass, Park, Parks, Parkway, Parkways, Pass, Passage, Path, Pike, Pine, Pines, Place, Plain, Plains, Plains, Plaza, Plaza, Point, Points, Port, Port, Ports, Ports, Prairie, Prairie, Radial, Ramp, Ranch, Rapid, Rapids, Rest, Ridge, Ridges, River, Road, Road, Roads, Roads, Route, Row, Rue, Run, Shoal, Shoals, Shore, Shores, Skyway, Spring, Springs, Springs, Spur, Spurs, Square, Square, Squares, Squares, Station, Station, Stravenue, Stravenue, Stream, Stream, Street, Street, Streets, Summit, Summit, Terrace, Throughway, Trace, Track, Trafficway, Trail, Trail, Tunnel, Tunnel, Turnpike, Turnpike, Underpass, Union, Unions, Valley, Valleys, Via, Viaduct, View, Views, Village, Village, Villages, Ville, Vista, Vista, Walk, Walks, Wall, Way, Ways, Well, Wells]
+      street_name: [Ackerweg, Adalbert-Stifter-Str., Adalbertstr., Adolf-Baeyer-Str., Adolf-Kaschny-Str., Adolf-Reichwein-Str., Adolfsstr., Ahornweg, Ahrstr., Akazienweg, Albert-Einstein-Str., Albert-Schweitzer-Str., Albertus-Magnus-Str., Albert-Zarthe-Weg, Albin-Edelmann-Str., Albrecht-Haushofer-Str., Aldegundisstr., Alexanderstr., Alfred-Delp-Str., Alfred-Kubin-Str., Alfred-Stock-Str., Alkenrather Str., Allensteiner Str., Alsenstr., Alt Steinbücheler Weg, Alte Garten, Alte Heide, Alte Landstr., Alte Ziegelei, Altenberger Str., Altenhof, Alter Grenzweg, Altstadtstr., Am Alten Gaswerk, Am Alten Schafstall, Am Arenzberg, Am Benthal, Am Birkenberg, Am Blauen Berg, Am Borsberg, Am Brungen, Am Büchelter Hof, Am Buttermarkt, Am Ehrenfriedhof, Am Eselsdamm, Am Falkenberg, Am Frankenberg, Am Gesundheitspark, Am Gierlichshof, Am Graben, Am Hagelkreuz, Am Hang, Am Heidkamp, Am Hemmelrather Hof, Am Hofacker, Am Hohen Ufer, Am Höllers Eck, Am Hühnerberg, Am Jägerhof, Am Junkernkamp, Am Kemperstiegel, Am Kettnersbusch, Am Kiesberg, Am Klösterchen, Am Knechtsgraben, Am Köllerweg, Am Köttersbach, Am Kreispark, Am Kronefeld, Am Küchenhof, Am Kühnsbusch, Am Lindenfeld, Am Märchen, Am Mittelberg, Am Mönchshof, Am Mühlenbach, Am Neuenhof, Am Nonnenbruch, Am Plattenbusch, Am Quettinger Feld, Am Rosenhügel, Am Sandberg, Am Scherfenbrand, Am Schokker, Am Silbersee, Am Sonnenhang, Am Sportplatz, Am Stadtpark, Am Steinberg, Am Telegraf, Am Thelenhof, Am Vogelkreuz, Am Vogelsang, Am Vogelsfeldchen, Am Wambacher Hof, Am Wasserturm, Am Weidenbusch, Am Weiher, Am Weingarten, Am Werth, Amselweg, An den Irlen, An den Rheinauen, An der Bergerweide, An der Dingbank, An der Evangelischen Kirche, An der Evgl. Kirche, An der Feldgasse, An der Fettehenne, An der Kante, An der Laach, An der Lehmkuhle, An der Lichtenburg, An der Luisenburg, An der Robertsburg, An der Schmitten, An der Schusterinsel, An der Steinrütsch, An St. Andreas, An St. Remigius, Andreasstr., Ankerweg, Annette-Kolb-Str., Apenrader Str., Arnold-Ohletz-Str., Atzlenbacher Str., Auerweg, Auestr., Auf dem Acker, Auf dem Blahnenhof, Auf dem Bohnbüchel, Auf dem Bruch, Auf dem End, Auf dem Forst, Auf dem Herberg, Auf dem Lehn, Auf dem Stein, Auf dem Weierberg, Auf dem Weiherhahn, Auf den Reien, Auf der Donnen, Auf der Grieße, Auf der Ohmer, Auf der Weide, Auf'm Berg, Auf'm Kamp, Augustastr., August-Kekulé-Str., A.-W.-v.-Hofmann-Str., Bahnallee, Bahnhofstr., Baltrumstr., Bamberger Str., Baumberger Str., Bebelstr., Beckers Kämpchen, Beerenstr., Beethovenstr., Behringstr., Bendenweg, Bensberger Str., Benzstr., Bergische Landstr., Bergstr., Berliner Platz, Berliner Str., Bernhard-Letterhaus-Str., Bernhard-Lichtenberg-Str., Bernhard-Ridder-Str., Bernsteinstr., Bertha-Middelhauve-Str., Bertha-von-Suttner-Str., Bertolt-Brecht-Str., Berzeliusstr., Bielertstr., Biesenbach, Billrothstr., Birkenbergstr., Birkengartenstr., Birkenweg, Bismarckstr., Bitterfelder Str., Blankenburg, Blaukehlchenweg, Blütenstr., Boberstr., Böcklerstr., Bodelschwinghstr., Bodestr., Bogenstr., Bohnenkampsweg, Bohofsweg, Bonifatiusstr., Bonner Str., Borkumstr., Bornheimer Str., Borsigstr., Borussiastr., Bracknellstr., Brahmsweg, Brandenburger Str., Breidenbachstr., Breslauer Str., Bruchhauser Str., Brückenstr., Brucknerstr., Brüder-Bonhoeffer-Str., Buchenweg, Bürgerbuschweg, Burgloch, Burgplatz, Burgstr., Burgweg, Bürriger Weg, Burscheider Str., Buschkämpchen, Butterheider Str., Carl-Duisberg-Platz, Carl-Duisberg-Str., Carl-Leverkus-Str., Carl-Maria-von-Weber-Platz, Carl-Maria-von-Weber-Str., Carlo-Mierendorff-Str., Carl-Rumpff-Str., Carl-von-Ossietzky-Str., Charlottenburger Str., Christian-Heß-Str., Claasbruch, Clemens-Winkler-Str., Concordiastr., Cranachstr., Dahlemer Str., Daimlerstr., Damaschkestr., Danziger Str., Debengasse, Dechant-Fein-Str., Dechant-Krey-Str., Deichtorstr., Dhünnberg, Dhünnstr., Dianastr., Diedenhofener Str., Diepental, Diepenthaler Str., Dieselstr., Dillinger Str., Distelkamp, Dohrgasse, Domblick, Dönhoffstr., Dornierstr., Drachenfelsstr., Dr.-August-Blank-Str., Dresdener Str., Driescher Hecke, Drosselweg, Dudweilerstr., Dünenweg, Dünfelder Str., Dünnwalder Grenzweg, Düppeler Str., Dürerstr., Dürscheider Weg, Düsseldorfer Str., Edelrather Weg, Edmund-Husserl-Str., Eduard-Spranger-Str., Ehrlichstr., Eichenkamp, Eichenweg, Eidechsenweg, Eifelstr., Eifgenstr., Eintrachtstr., Elbestr., Elisabeth-Langgässer-Str., Elisabethstr., Elisabeth-von-Thadden-Str., Elisenstr., Elsa-Brändström-Str., Elsbachstr., Else-Lasker-Schüler-Str., Elsterstr., Emil-Fischer-Str., Emil-Nolde-Str., Engelbertstr., Engstenberger Weg, Entenpfuhl, Erbelegasse, Erftstr., Erfurter Str., Erich-Heckel-Str., Erich-Klausener-Str., Erich-Ollenhauer-Str., Erlenweg, Ernst-Bloch-Str., Ernst-Ludwig-Kirchner-Str., Erzbergerstr., Eschenallee, Eschenweg, Esmarchstr., Espenweg, Euckenstr., Eulengasse, Eulenkamp, Ewald-Flamme-Str., Ewald-Röll-Str., Fährstr., Farnweg, Fasanenweg, Faßbacher Hof, Felderstr., Feldkampstr., Feldsiefer Weg, Feldsiefer Wiesen, Feldstr., Feldtorstr., Felix-von-Roll-Str., Ferdinand-Lassalle-Str., Fester Weg, Feuerbachstr., Feuerdornweg, Fichtenweg, Fichtestr., Finkelsteinstr., Finkenweg, Fixheider Str., Flabbenhäuschen, Flensburger Str., Fliederweg, Florastr., Florianweg, Flotowstr., Flurstr., Föhrenweg, Fontanestr., Forellental, Fortunastr., Franz-Esser-Str., Franz-Hitze-Str., Franz-Kail-Str., Franz-Marc-Str., Freiburger Str., Freiheitstr., Freiherr-vom-Stein-Str., Freudenthal, Freudenthaler Weg, Fridtjof-Nansen-Str., Friedenberger Str., Friedensstr., Friedhofstr., Friedlandstr., Friedlieb-Ferdinand-Runge-Str., Friedrich-Bayer-Str., Friedrich-Bergius-Platz, Friedrich-Ebert-Platz, Friedrich-Ebert-Str., Friedrich-Engels-Str., Friedrich-List-Str., Friedrich-Naumann-Str., Friedrich-Sertürner-Str., Friedrichstr., Friedrich-Weskott-Str., Friesenweg, Frischenberg, Fritz-Erler-Str., Fritz-Henseler-Str., Fröbelstr., Fürstenbergplatz, Fürstenbergstr., Gabriele-Münter-Str., Gartenstr., Gebhardstr., Geibelstr., Gellertstr., Georg-von-Vollmar-Str., Gerhard-Domagk-Str., Gerhart-Hauptmann-Str., Gerichtsstr., Geschwister-Scholl-Str., Gezelinallee, Gierener Weg, Ginsterweg, Gisbert-Cremer-Str., Glücksburger Str., Gluckstr., Gneisenaustr., Goetheplatz, Goethestr., Golo-Mann-Str., Görlitzer Str., Görresstr., Graebestr., Graf-Galen-Platz, Gregor-Mendel-Str., Greifswalder Str., Grillenweg, Gronenborner Weg, Große Kirchstr., Grunder Wiesen, Grundermühle, Grundermühlenhof, Grundermühlenweg, Grüner Weg, Grunewaldstr., Grünstr., Günther-Weisenborn-Str., Gustav-Freytag-Str., Gustav-Heinemann-Str., Gustav-Radbruch-Str., Gut Reuschenberg, Gutenbergstr., Haberstr., Habichtgasse, Hafenstr., Hagenauer Str., Hahnenblecher, Halenseestr., Halfenleimbach, Hallesche Str., Halligstr., Hamberger Str., Hammerweg, Händelstr., Hannah-Höch-Str., Hans-Arp-Str., Hans-Gerhard-Str., Hans-Sachs-Str., Hans-Schlehahn-Str., Hans-von-Dohnanyi-Str., Hardenbergstr., Haselweg, Hauptstr., Haus-Vorster-Str., Hauweg, Havelstr., Havensteinstr., Haydnstr., Hebbelstr., Heckenweg, Heerweg, Hegelstr., Heidberg, Heidehöhe, Heidestr., Heimstättenweg, Heinrich-Böll-Str., Heinrich-Brüning-Str., Heinrich-Claes-Str., Heinrich-Heine-Str., Heinrich-Hörlein-Str., Heinrich-Lübke-Str., Heinrich-Lützenkirchen-Weg, Heinrichstr., Heinrich-Strerath-Str., Heinrich-von-Kleist-Str., Heinrich-von-Stephan-Str., Heisterbachstr., Helenenstr., Helmestr., Hemmelrather Weg, Henry-T.-v.-Böttinger-Str., Herderstr., Heribertstr., Hermann-Ehlers-Str., Hermann-Hesse-Str., Hermann-König-Str., Hermann-Löns-Str., Hermann-Milde-Str., Hermann-Nörrenberg-Str., Hermann-von-Helmholtz-Str., Hermann-Waibel-Str., Herzogstr., Heymannstr., Hindenburgstr., Hirzenberg, Hitdorfer Kirchweg, Hitdorfer Str., Höfer Mühle, Höfer Weg, Hohe Str., Höhenstr., Höltgestal, Holunderweg, Holzer Weg, Holzer Wiesen, Hornpottweg, Hubertusweg, Hufelandstr., Hufer Weg, Humboldtstr., Hummelsheim, Hummelweg, Humperdinckstr., Hüscheider Gärten, Hüscheider Str., Hütte, Ilmstr., Im Bergischen Heim, Im Bruch, Im Buchenhain, Im Bühl, Im Burgfeld, Im Dorf, Im Eisholz, Im Friedenstal, Im Frohental, Im Grunde, Im Hederichsfeld, Im Jücherfeld, Im Kalkfeld, Im Kirberg, Im Kirchfeld, Im Kreuzbruch, Im Mühlenfeld, Im Nesselrader Kamp, Im Oberdorf, Im Oberfeld, Im Rosengarten, Im Rottland, Im Scheffengarten, Im Staderfeld, Im Steinfeld, Im Weidenblech, Im Winkel, Im Ziegelfeld, Imbach, Imbacher Weg, Immenweg, In den Blechenhöfen, In den Dehlen, In der Birkenau, In der Dasladen, In der Felderhütten, In der Hartmannswiese, In der Höhle, In der Schaafsdellen, In der Wasserkuhl, In der Wüste, In Holzhausen, Insterstr., Jacob-Fröhlen-Str., Jägerstr., Jahnstr., Jakob-Eulenberg-Weg, Jakobistr., Jakob-Kaiser-Str., Jenaer Str., Johannes-Baptist-Str., Johannes-Dott-Str., Johannes-Popitz-Str., Johannes-Wislicenus-Str., Johannisburger Str., Johann-Janssen-Str., Johann-Wirtz-Weg, Josefstr., Jüch, Julius-Doms-Str., Julius-Leber-Str., Kaiserplatz, Kaiserstr., Kaiser-Wilhelm-Allee, Kalkstr., Kämpchenstr., Kämpenwiese, Kämper Weg, Kamptalweg, Kanalstr., Kandinskystr., Kantstr., Kapellenstr., Karl-Arnold-Str., Karl-Bosch-Str., Karl-Bückart-Str., Karl-Carstens-Ring, Karl-Friedrich-Goerdeler-Str., Karl-Jaspers-Str., Karl-König-Str., Karl-Krekeler-Str., Karl-Marx-Str., Karlstr., Karl-Ulitzka-Str., Karl-Wichmann-Str., Karl-Wingchen-Str., Käsenbrod, Käthe-Kollwitz-Str., Katzbachstr., Kerschensteinerstr., Kiefernweg, Kieler Str., Kieselstr., Kiesweg, Kinderhausen, Kleiberweg, Kleine Kirchstr., Kleingansweg, Kleinheider Weg, Klief, Kneippstr., Knochenbergsweg, Kochergarten, Kocherstr., Kockelsberg, Kolberger Str., Kolmarer Str., Kölner Gasse, Kölner Str., Kolpingstr., Königsberger Platz, Konrad-Adenauer-Platz, Köpenicker Str., Kopernikusstr., Körnerstr., Köschenberg, Köttershof, Kreuzbroicher Str., Kreuzkamp, Krummer Weg, Kruppstr., Kuhlmannweg, Kump, Kumper Weg, Kunstfeldstr., Küppersteger Str., Kursiefen, Kursiefer Weg, Kurtekottenweg, Kurt-Schumacher-Ring, Kyllstr., Langenfelder Str., Längsleimbach, Lärchenweg, Legienstr., Lehner Mühle, Leichlinger Str., Leimbacher Hof, Leinestr., Leineweberstr., Leipziger Str., Lerchengasse, Lessingstr., Libellenweg, Lichstr., Liebigstr., Lindenstr., Lingenfeld, Linienstr., Lippe, Löchergraben, Löfflerstr., Loheweg, Lohrbergstr., Lohrstr., Löhstr., Lortzingstr., Lötzener Str., Löwenburgstr., Lucasstr., Ludwig-Erhard-Platz, Ludwig-Girtler-Str., Ludwig-Knorr-Str., Luisenstr., Lupinenweg, Lurchenweg, Lützenkirchener Str., Lycker Str., Maashofstr., Manforter Str., Marc-Chagall-Str., Maria-Dresen-Str., Maria-Terwiel-Str., Marie-Curie-Str., Marienburger Str., Mariendorfer Str., Marienwerderstr., Marie-Schlei-Str., Marktplatz, Markusweg, Martin-Buber-Str., Martin-Heidegger-Str., Martin-Luther-Str., Masurenstr., Mathildenweg, Maurinusstr., Mauspfad, Max-Beckmann-Str., Max-Delbrück-Str., Max-Ernst-Str., Max-Holthausen-Platz, Max-Horkheimer-Str., Max-Liebermann-Str., Max-Pechstein-Str., Max-Planck-Str., Max-Scheler-Str., Max-Schönenberg-Str., Maybachstr., Meckhofer Feld, Meisenweg, Memelstr., Menchendahler Str., Mendelssohnstr., Merziger Str., Mettlacher Str., Metzer Str., Michaelsweg, Miselohestr., Mittelstr., Mohlenstr., Moltkestr., Monheimer Str., Montanusstr., Montessoriweg, Moosweg, Morsbroicher Str., Moselstr., Moskauer Str., Mozartstr., Mühlenweg, Muhrgasse, Muldestr., Mülhausener Str., Mülheimer Str., Münsters Gäßchen, Münzstr., Müritzstr., Myliusstr., Nachtigallenweg, Nauener Str., Neißestr., Nelly-Sachs-Str., Netzestr., Neuendriesch, Neuenhausgasse, Neuenkamp, Neujudenhof, Neukronenberger Str., Neustadtstr., Nicolai-Hartmann-Str., Niederblecher, Niederfeldstr., Nietzschestr., Nikolaus-Groß-Str., Nobelstr., Norderneystr., Nordstr., Ober dem Hof, Obere Lindenstr., Obere Str., Oberölbach, Odenthaler Str., Oderstr., Okerstr., Olof-Palme-Str., Ophovener Str., Opladener Platz, Opladener Str., Ortelsburger Str., Oskar-Moll-Str., Oskar-Schlemmer-Str., Oststr., Oswald-Spengler-Str., Otto-Dix-Str., Otto-Grimm-Str., Otto-Hahn-Str., Otto-Müller-Str., Otto-Stange-Str., Ottostr., Otto-Varnhagen-Str., Otto-Wels-Str., Ottweilerstr., Oulustr., Overfeldweg, Pappelweg, Paracelsusstr., Parkstr., Pastor-Louis-Str., Pastor-Scheibler-Str., Pastorskamp, Paul-Klee-Str., Paul-Löbe-Str., Paulstr., Peenestr., Pescher Busch, Peschstr., Pestalozzistr., Peter-Grieß-Str., Peter-Joseph-Lenné-Str., Peter-Neuenheuser-Str., Petersbergstr., Peterstr., Pfarrer-Jekel-Str., Pfarrer-Klein-Str., Pfarrer-Röhr-Str., Pfeilshofstr., Philipp-Ott-Str., Piet-Mondrian-Str., Platanenweg, Pommernstr., Porschestr., Poststr., Potsdamer Str., Pregelstr., Prießnitzstr., Pützdelle, Quarzstr., Quettinger Str., Rat-Deycks-Str., Rathenaustr., Ratherkämp, Ratiborer Str., Raushofstr., Regensburger Str., Reinickendorfer Str., Renkgasse, Rennbaumplatz, Rennbaumstr., Reuschenberger Str., Reusrather Str., Reuterstr., Rheinallee, Rheindorfer Str., Rheinstr., Rhein-Wupper-Platz, Richard-Wagner-Str., Rilkestr., Ringstr., Robert-Blum-Str., Robert-Koch-Str., Robert-Medenwald-Str., Rolandstr., Romberg, Röntgenstr., Roonstr., Ropenstall, Ropenstaller Weg, Rosenthal, Rostocker Str., Rotdornweg, Röttgerweg, Rückertstr., Rudolf-Breitscheid-Str., Rudolf-Mann-Platz, Rudolf-Stracke-Str., Ruhlachplatz, Ruhlachstr., Rüttersweg, Saalestr., Saarbrücker Str., Saarlauterner Str., Saarstr., Salamanderweg, Samlandstr., Sanddornstr., Sandstr., Sauerbruchstr., Schäfershütte, Scharnhorststr., Scheffershof, Scheidemannstr., Schellingstr., Schenkendorfstr., Schießbergstr., Schillerstr., Schlangenhecke, Schlebuscher Heide, Schlebuscher Str., Schlebuschrath, Schlehdornstr., Schleiermacherstr., Schloßstr., Schmalenbruch, Schnepfenflucht, Schöffenweg, Schöllerstr., Schöne Aussicht, Schöneberger Str., Schopenhauerstr., Schubertplatz, Schubertstr., Schulberg, Schulstr., Schumannstr., Schwalbenweg, Schwarzastr., Sebastianusweg, Semmelweisstr., Siebelplatz, Siemensstr., Solinger Str., Sonderburger Str., Spandauer Str., Speestr., Sperberweg, Sperlingsweg, Spitzwegstr., Sporrenberger Mühle, Spreestr., St. Ingberter Str., Starenweg, Stauffenbergstr., Stefan-Zweig-Str., Stegerwaldstr., Steglitzer Str., Steinbücheler Feld, Steinbücheler Str., Steinstr., Steinweg, Stephan-Lochner-Str., Stephanusstr., Stettiner Str., Stixchesstr., Stöckenstr., Stralsunder Str., Straßburger Str., Stresemannplatz, Strombergstr., Stromstr., Stüttekofener Str., Sudestr., Sürderstr., Syltstr., Talstr., Tannenbergstr., Tannenweg, Taubenweg, Teitscheider Weg, Telegrafenstr., Teltower Str., Tempelhofer Str., Theodor-Adorno-Str., Theodor-Fliedner-Str., Theodor-Gierath-Str., Theodor-Haubach-Str., Theodor-Heuss-Ring, Theodor-Storm-Str., Theodorstr., Thomas-Dehler-Str., Thomas-Morus-Str., Thomas-von-Aquin-Str., Tönges Feld, Torstr., Treptower Str., Treuburger Str., Uhlandstr., Ulmenweg, Ulmer Str., Ulrichstr., Ulrich-von-Hassell-Str., Umlag, Unstrutstr., Unter dem Schildchen, Unterölbach, Unterstr., Uppersberg, Van\'t-Hoff-Str., Veit-Stoß-Str., Vereinsstr., Viktor-Meyer-Str., Vincent-van-Gogh-Str., Virchowstr., Voigtslach, Volhardstr., Völklinger Str., Von-Brentano-Str., Von-Diergardt-Str., Von-Eichendorff-Str., Von-Ketteler-Str., Von-Knoeringen-Str., Von-Pettenkofer-Str., Von-Siebold-Str., Wacholderweg, Waldstr., Walter-Flex-Str., Walter-Hempel-Str., Walter-Hochapfel-Str., Walter-Nernst-Str., Wannseestr., Warnowstr., Warthestr., Weddigenstr., Weichselstr., Weidenstr., Weidfeldstr., Weiherfeld, Weiherstr., Weinhäuser Str., Weißdornweg, Weißenseestr., Weizkamp, Werftstr., Werkstättenstr., Werner-Heisenberg-Str., Werrastr., Weyerweg, Widdauener Str., Wiebertshof, Wiehbachtal, Wiembachallee, Wiesdorfer Platz, Wiesenstr., Wilhelm-Busch-Str., Wilhelm-Hastrich-Str., Wilhelm-Leuschner-Str., Wilhelm-Liebknecht-Str., Wilhelmsgasse, Wilhelmstr., Willi-Baumeister-Str., Willy-Brandt-Ring, Winand-Rossi-Str., Windthorststr., Winkelweg, Winterberg, Wittenbergstr., Wolf-Vostell-Str., Wolkenburgstr., Wupperstr., Wuppertalstr., Wüstenhof, Yitzhak-Rabin-Str., Zauberkuhle, Zedernweg, Zehlendorfer Str., Zehntenweg, Zeisigweg, Zeppelinstr., Zschopaustr., Zum Claashäuschen, Zündhütchenweg, Zur Alten Brauerei, Zur alten Fabrik]
+      secondary_address: ['Apt. ###', 'Zimmer ###', 'Etage. ###']
+      # Though these are US-specific, they are here (in the default locale) for backwards compatibility
+      postcode: ['1###', '2###', '3###', '4###', '5###', '6###', '7###', '8###', '9###']
+      state: [Baden-Württemberg, Bayern, Berlin, Brandenburg, Bremen, Hamburg, Hessen, Mecklenburg-Vorpommern, Niedersachsen, Nordrhein-Westfalen, Rheinland-Pfalz, Saarland, Sachsen, Sachsen-Anhalt, Schleswig-Holstein, Thüringen]
+      state_abbr: [BW, BY, BE, BB , HB , HH , HE , MV, NI , NW, RP, SL, SN, ST, SH, TH]
+      country_code: [CH, CH, CH, DE, AT, US, LI, US, HK, VN]
+    phone_number:
+      formats: ['(0###) #########', '(0####) #######', '+49-###-#######', '+49-####-########']
+    cell_phone:
+      formats: ['+49-(1##)-#######', '+49-(1###)-########']
+    company:
+      suffix: [AG, GmbH, und Söhne, und Partner, "& Co.", Gruppe, LLC, Inc.]
+    internet:
+      free_email: [gmail.com, yahoo.com, hotmail.com]
+      domain_suffix: [de, com, biz, info, name, net, org]
+    lorem:
+      words: [alias, consequatur, aut, perferendis, sit, voluptatem, accusantium, doloremque, aperiam, eaque, ipsa, quae, ab, illo, inventore, veritatis, et, quasi, architecto, beatae, vitae, dicta, sunt, explicabo, aspernatur, aut, odit, aut, fugit, sed, quia, consequuntur, magni, dolores, eos, qui, ratione, voluptatem, sequi, nesciunt, neque, dolorem, ipsum, quia, dolor, sit, amet, consectetur, adipisci, velit, sed, quia, non, numquam, eius, modi, tempora, incidunt, ut, labore, et, dolore, magnam, aliquam, quaerat, voluptatem, ut, enim, ad, minima, veniam, quis, nostrum, exercitationem, ullam, corporis, nemo, enim, ipsam, voluptatem, quia, voluptas, sit, suscipit, laboriosam, nisi, ut, aliquid, ex, ea, commodi, consequatur, quis, autem, vel, eum, iure, reprehenderit, qui, in, ea, voluptate, velit, esse, quam, nihil, molestiae, et, iusto, odio, dignissimos, ducimus, qui, blanditiis, praesentium, laudantium, totam, rem, voluptatum, deleniti, atque, corrupti, quos, dolores, et, quas, molestias, excepturi, sint, occaecati, cupiditate, non, provident, sed, ut, perspiciatis, unde, omnis, iste, natus, error, similique, sunt, in, culpa, qui, officia, deserunt, mollitia, animi, id, est, laborum, et, dolorum, fuga, et, harum, quidem, rerum, facilis, est, et, expedita, distinctio, nam, libero, tempore, cum, soluta, nobis, est, eligendi, optio, cumque, nihil, impedit, quo, porro, quisquam, est, qui, minus, id, quod, maxime, placeat, facere, possimus, omnis, voluptas, assumenda, est, omnis, dolor, repellendus, temporibus, autem, quibusdam, et, aut, consequatur, vel, illum, qui, dolorem, eum, fugiat, quo, voluptas, nulla, pariatur, at, vero, eos, et, accusamus, officiis, debitis, aut, rerum, necessitatibus, saepe, eveniet, ut, et, voluptates, repudiandae, sint, et, molestiae, non, recusandae, itaque, earum, rerum, hic, tenetur, a, sapiente, delectus, ut, aut, reiciendis, voluptatibus, maiores, doloribus, asperiores, repellat]
+    name:
+      first_name: [Mia, Hannah, Hanna, Lena, Lea, Leah, Emma, Anna, Leonie, Leoni, Lilli, Lilly, Lili, Emilie, Emily, Lina, Laura, Marie, Sarah, Sara, Sophia, Sofia, Lara, Sophie, Sofie, Maja, Maya, Amelie, Luisa, Louisa, Johanna, Emilia, Nele, Neele, Clara, Klara, Leni, Alina, Charlotte, Julia, Lisa, Zoe, Zoé, Pia, Paula, Melina, Finja, Finnja, Ida, Lia, Liah, Lya, Greta, Jana, Josefine, Josephine, Jasmin, Yasmin, Lucy, Lucie, Victoria, Viktoria, Emely, Emelie, Katharina, Fiona, Stella, Pauline, Amy, Antonia, Mara, Marah, Annika, Nina, Matilda, Mathilda, Helena, Marlene, Lotta, Isabel, Isabell, Isabelle, Theresa, Teresa, Chiara, Kiara, Frieda, Frida, Eva, Maria, Celine, Selina, Jule, Celina, Vanessa, Ronja, Luise, Louise, Romy, Isabella, Ella, Franziska, Elisa, Magdalena, Carla, Karla, Luna, Sina, Sinah, Angelina, Milena, Helene, Merle, Jolina, Joelina, Melissa, Mila, Nora, Jette, Miriam, Carlotta, Karlotta, Elena, Kim, Michelle, Aylin, Eileen, Aileen, Ayleen, Lynn, Linn, Mira, Carolin, Caroline, Karoline, Kimberly, Kimberley, Julie, Juli, Alicia, Kira, Kyra, Vivien, Vivienne, Lana, Paulina, Linda, Larissa, Annabelle, Annabell, Annabel, Anabel, Elina, Samira, Leyla, Nelli, Nelly, Lucia, Alexandra, Tamina, Laila, Layla, Elisabeth, Lenja, Lenya, Anny, Anni, Annie, Diana, Natalie, Nathalie, Martha, Marta, Mina, Jessica, Jessika, Valentina, Alisa, Leticia, Letizia, Olivia, Christina, Lotte, Samantha, Fabienne, Nisa, Zoey, Mariella, Svea, Cheyenne, Chayenne, Annalena, Carolina, Karolina, Ela, Leona, Tabea, Aliyah, Aaliyah, Josy, Josie, Rebekka, Alissa, Alyssa, Anastasia, Marleen, Marlen, Elif, Anne, Carina, Karina, Dana, Noemi, Lene, Milla, Rosalie, Luana, Evelyn, Evelin, Eveline, Fenja, Tessa, Xenia, Marla, Alessia, Mona, Saskia, Joline, Joeline, Alexa, Aurelia, Ceylin, Helen, Jennifer, Tamara, Ecrin, Leana, Elli, Elly, Nayla, Florentine, Henriette, Lorena, Veronika, Felicitas, Liana, Livia, Malin, Marit, Melanie, Josephin, Josefin, Emmi, Emmy, Tuana, Dilara, Maike, Meike, Thea, Ashley, Linea, Linnea, Marina, Lilian, Lillian, Amina, Jill, Jil, Sarina, Giulia, Janne, Talia, Thalia, Alea, Rieke, Rike, Svenja, Liliana, Janina, Nicole, Selma, Alisha, Ava, Kaja, Kaya, Caja, Liv, Rosa, Valeria, Heidi, Joyce, Selin, Ina, Aleyna, Enya, Jamie, Naomi, Patricia, Amira, Amalia, Anouk, Eliana, Hermine, Joy, Juliana, Romina, Azra, Franka, Melek, Melinda, Freya, Marieke, Marike, Mary, Sonja, Ayla, Elaine, Alma, Eda, Elin, Lola, Melia, Miley, Nike, Philine, Cora, Daria, Jenny, Jonna, Yara, Zeynep, Cassandra, Kassandra, Esila, Felicia, Malia, Smilla, Alena, Amelia, Aurora, Ceyda, Juliane, Leandra, Lilith, Madita, Melisa, Nika, Summer, Fatima, Ilayda, Joleen, Malina, Sandra, Jasmina, Katja, Medina, Annelie, Juna, Valerie, Madlen, Madleen, Aliya, Charlotta, Eleni, Hailey, Mailin, Denise, Fine, Flora, Madeleine, Sena, Vivian, Ann, Annemarie, Asya, Christin, Kristin, Jara, Jenna, Julina, Maren, Soraya, Tara, Viola, Alia, Ellen, Enie, Lydia, Milana, Nala, Adriana, Aimee, Anja, Chantal, Elise, Elsa, Gina, Joanna, Judith, Malea, Marisa, Mayra, Talea, Thalea, Tilda, Delia, Joana, Kiana, Melis, Meryem, Sude, Amanda, Enna, Esther, Holly, Irem, Marlena, Mirja, Phoebe, Rahel, Verena, Alexia, Bianca, Bianka, Cara, Friederike, Catrin, Katrin, Kathrin, Lavinia, Lenia, Nadine, Stefanie, Stephanie, Ada, Asmin, Bella, Cecilia, Clarissa, Esma, Jolie, Maila, Mareike, Selena, Soey, Ylvi, Ylvie, Zara, Abby, Ayse, Claire, Helin, Jona, Jonah, Lilia, Luzi, Luzie, Nila, Sally, Samia, Sidney, Sydney, Tina, Tyra, Alice, Anisa, Belinay, Cecile, Fee, Inga, Janna, Jolien, Levke, Nia, Ruby, Stine, Sunny, Tamia, Tiana, Alara, Charleen, Collien, Fanny, Fatma, Felina, Ines, Jane, Maxima, Tarja, Adelina, Alica, Dila, Elanur, Elea, Gloria, Jamila, Kate, Loreen, Lou, Maxi, Melody, Nela, Rania, Sabrina, Ariana, Charline, Christine, Cosima, Leia, Leya, Leonora, Lindsay, Megan, Naemi, Nahla, Sahra, Saphira, Serafina, Stina, Toni, Tony, Yaren, Abigail, Ece, Evelina, Frederike, Inka, Irma, Kayra, Mariam, Marissa, Salome, Violetta, Yagmur, Celin, Eleonora, Felia, Femke, Finia, Hedda, Hedi, Henrike, Jody, Juline, Lieselotte, Lilliana, Luca, Luka, Maira, Naila, Naima, Natalia, Neela, Salma, Scarlett, Seraphine, Shirin, Tia, Wiebke, Alexis, Alisia, Angelique, Anneke, Edda, Elia, Gabriela, Geraldine, Giuliana, Ilaria, Janin, Janine, Joelle, Malak, Mieke, Nilay, Noelle, Yuna, Adele, Ceren, Chelsea, Daniela, Evangeline, Liz, Maggie, Malena, Marielle, Marietta, Mathea, Mathilde, Melike, Merve, Rafaela, Raphaela, Sandy, Sienna, Leon, Lucas, Lukas, Ben, Finn, Fynn, Jonas, Paul, Luis, Louis, Maximilian, Luca, Luka, Felix, Tim, Timm, Elias, Max, Noah, Philip, Philipp, Niclas, Niklas, Julian, Moritz, Jan, David, Fabian, Alexander, Simon, Jannik, Yannik, Yannick, Yannic, Tom, Nico, Niko, Jacob, Jakob, Eric, Erik, Linus, Florian, Lennard, Lennart, Nils, Niels, Henri, Henry, Nick, Joel, Rafael, Raphael, Benjamin, Marlon, Jonathan, Hannes, Jannis, Janis, Yannis, Jason, Anton, Emil, Johannes, Leo, Mika, Sebastian, Dominic, Dominik, Daniel, Adrian, Vincent, Tobias, Samuel, Julius, Till, Lenny, Lenni, Constantin, Konstantin, Timo, Lennox, Robin, Aaron, Oscar, Oskar, Colin, Collin, Jona, Jonah, Justin, Carl, Karl, Leonard, Joshua, Ole, Matteo, Jamie, Marvin, Marwin, John, Kilian, Lasse, Mattis, Mathis, Matthis, Levin, Marc, Mark, Liam, Maxim, Maksim, Gabriel, Theo, Bastian, Johann, Damian, Noel, Levi, Phil, Justus, Malte, Tyler, Tayler, Valentin, Benedikt, Christian, Silas, Lars, Mats, Mads, Jeremy, Michael, Oliver, Pascal, Toni, Tony, Dennis, Bennet, Bennett, Artur, Arthur, Luke, Luc, Luk, Jayden, Finnley, Finley, Finlay, Connor, Conner, Tristan, Richard, Marcel, Diego, Marius, Mohammed, Muhammad, Manuel, Jannes, Fabio, Maik, Meik, Mike, Julien, Frederic, Frederik, Frederick, Marco, Marko, Kevin, Matti, Ian, Maurice, Franz, Arne, Nicolas, Nikolas, Ali, Leandro, Kai, Kay, Leopold, Martin, Elia, Sam, Dean, Henrik, Pepe, Len, Lenn, Hendrik, Emilio, Cedric, Cedrik, Milan, Theodor, Timon, Jasper, Malik, Matthias, Hugo, Leander, Michel, Andreas, Laurens, Laurenz, Bruno, Konrad, Arda, Neo, Lorenz, Marcus, Markus, Torben, Thorben, Magnus, Robert, Can, Milo, Clemens, Klemens, Nikita, Domenic, Domenik, Emilian, Laurin, Willi, Willy, Alessio, Devin, Fiete, Friedrich, Deniz, Ruben, Thomas, Eddi, Eddy, Lion, Luan, Kian, Lian, Lias, Mert, Patrick, Chris, Ilias, Ilyas, Kaan, Nevio, Quentin, Yusuf, Christoph, Dustin, Joris, Gustav, Jaden, Adam, Fritz, Henning, Ryan, Ferdinand, Lionel, Nino, Piet, Yasin, Alex, Carlo, Karlo, Charlie, Charly, Leonardo, Peter, Ahmed, Ahmet, Benno, Efe, Enes, Iven, Yven, Josef, Joseph, Miguel, William, Emir, Marian, Alessandro, Antonio, Brian, Bryan, Jerome, Kerem, Ludwig, Arian, René, Christopher, Jaron, Stefan, Stephan, Sven, Victor, Viktor, Carlos, Dario, Sandro, Jean, Mehmet, Bjarne, Etienne, Anthony, Hans, Mustafa, Darius, Leif, Georg, Kjell, Maddox, Roman, Thore, Tore, Danny, Mohamed, Titus, Andre, Damien, Leonhard, Ricardo, Riccardo, Semih, Janne, Melvin, Valentino, Cem, Jannek, Janek, Korbinian, Romeo, Taylor, Jack, Rayan, Thilo, Curt, Kurt, Darian, Jermaine, Steven, Albert, Angelo, Eren, Eymen, Hamza, Sascha, Dave, Sean, Umut, Wilhelm, Edgar, Giuliano, Arjen, Bela, Hennes, Logan, Lutz, Marten, Batuhan, Danilo, Enrico, Fabrice, Lean, Sami, Tamino, Tizian, Amir, Claas, Klaas, Xaver, Armin, Denny, Ibrahim, Karim, Sinan, Sören, Tommy, Yunus, Emanuel, Gregor, Jon, Joost, Jost, Merlin, Tamme, Berkay, Edward, Jim, Lino, Mick, Mikail, Miran, Nicolai, Nikolai, Ömer, Ron, Tammo, Tjark, Emre, Jordan, Leonidas, Mario, Quirin, Eduard, Hassan, Jano, Kimi, Taha, Baran, Berat, Caspar, Gianluca, Jarne, Jarno, Jonte, Lucian, Lucien, Mailo, Nathan, Nelson, Tino, Calvin, Dorian, Emirhan, Furkan, Ilja, Lio, Marek, Mio, Rico, Damon, Janosch, Jesper, Juri, Kerim, Shawn, Tiago, Timur, Elian, Ethan, Gian, Kenan, Amin, Arvid, Enno, Falk, Jens, Johnny, Keanu, Mirco, Mirko, Pierre, Santino, Björn, Eike, Elijah, Emin, Gerrit, Hasan, Jake, Jakub, James, Juan, Kenny, Peer, Raik, Ramon, Rocco, Tarik, Vitus, Yigit, Younes, Bilal, Dylan, Edwin, Georgios, Jesse, Koray, Lewis, Nikola, Stanley, Taylan, Vinzenz, Burak, Corvin, Dejan, Keno, Nathanael, Neven, Ahmad, Andrej, Davin, Dion, Eray, Erwin, Francesco, Mattes, Brandon, Cornelius, Ensar, Fabien, Giulio, Hanno, Ivan, Jamal, Jeremias, Joe, Kim, Kolja, Marlo, Miko, Milow, Omar, Paolo, Salih, Samir, Tilo, Timmy, Vin, Abdullah, Adem, Alan, Alperen, Ansgar, Aras, Arno, Azad, Bo, Giovanni, Ismail, Jaro, Jendrik, Jimmy, Kadir, Kirill, Otto, Quinn, Sercan, Sidney, Sydney, Tyron, Adriano, Aiden, Amon, Benny, Carsten, Karsten, Dan, Dante, Hagen, Harun, Jayson, Kalle, Leonas, Levent, Lorik, Loris, Mirac, Onur, Raul, Samuele, Severin, Simeon, Vincenzo, Yassin, Yves, Alejandro, Alfred, Bendix, Demian, Enzo]
+      last_name: [Müller, Schmidt, Schneider, Fischer, Weber, Meyer, Wagner, Becker, Schulz, Hoffmann, Schäfer, Koch, Bauer, Richter, Klein, Wolf, Schröder (Schneider), Neumann, Schwarz, Zimmermann, Braun, Krüger, Hofmann, Hartmann, Lange, Schmitt, Werner, Schmitz, Krause, Meier, Lehmann, Schmid, Schulze, Maier, Köhler, Herrmann, König, Walter, Mayer, Huber, Kaiser, Fuchs, Peters, Lang, Scholz, Möller, Weiß, Jung, Hahn, Schubert, Vogel, Friedrich, Keller, Günther, Frank, Berger, Winkler, Roth, Beck, Lorenz, Baumann, Franke, Albrecht, Schuster, Simon, Ludwig, Böhm, Winter, Kraus, Martin, Schumacher, Krämer, Vogt, Stein, Jäger, Otto, Sommer, Groß, Seidel, Heinrich, Brandt, Haas, Schreiber, Graf, Schulte, Dietrich, Ziegler, Kuhn, Kühn, Pohl, Engel, Horn, Busch, Bergmann, Thomas, Voigt, Sauer, Arnold, Wolff, Pfeiffer]
+      prefix: [Frau, Frau, Herr, Dr., Prof.]
+      suffix: [Jr., Sr., I, II, III, IV, V, MD, DDS, PhD, DVM]
+      formats:
+        -
+          - :prefix
+          - :first_name
+          - :last_name
+        -
+          - :first_name
+          - :last_name
+          - :suffix
+        -
+          - :first_name
+          - :last_name
+        -
+          - :first_name
+          - :last_name
+        -
+          - :first_name
+          - :last_name
+        -
+          - :first_name
+          - :last_name
+
+  countries:
+    afghanistan: Afghanistan
+    egypt: Ägypten
+    albania: Albanien
+    algeria: Algerien
+    americansamoa: Amerikanisch Samoa
+    andorra: Andorra
+    angola: Angola
+    anguilla: Anguilla
+    antarctica: Antarktis
+    antiguaandbarbuda: Antigua und Barbuda
+    equatorialguinea: Äquatorialguinea
+    australia: Australien
+    argentina: Argentinien
+    armenia: Armenien
+    aruba: Aruba
+    azerbaijan: Aserbaidschan
+    ethiopia: Äthiopien
+    bahamas: Bahamas
+    bahrain: Bahrain
+    bangladesh: Bangladesch
+    barbados: Barbados
+    belarus: Belarus
+    belgium: Belgien
+    belize: Belize
+    benin: Benin
+    bermuda: Bermudas
+    bhutan: Bhutan
+    bolivia: Bolivien
+    bosniaandherzegovina: Bosnien-Herzigowina
+    botswana: Botsuana
+    brazil: Brasilien
+    britishvirginislands: Britische Jungferninseln
+    bruneidarussalam: Brunei Darussalam
+    bulgaria: Bulgarien
+    burkinafaso: Burkina Faso
+    burundi: Burundi
+    chile: Chile
+    china: China
+    christmasisland: Christmas-Inseln
+    cookislands: Cookinseln
+    costarica: Costa Rica
+    denmark: Dänemark
+    germany: Deutschland
+    djibouti: Dschibuti
+    dominica: Dominica
+    dominicanrepublic: Dominikanische Republik
+    ecuador: Ecuador
+    coted_ivoire: Elfenbeinküste
+    elsalvador: El Salvador
+    eritrea: Eritrea
+    falklandislands_malvinas: Falklandinseln
+    faroeislands: Färöer
+    fiji: Fidschi
+    finland: Finnland
+    france: Frankreich
+    frenchguiana: Französisch-Guayana
+    frenchpolynesia: Französisch-Polynesien
+    frenchsouthernterritories: Französische Süd- und Antarktisgebiete
+    gabon: Gabun
+    gambia: Gambia
+    georgia: Georgien
+    ghana: Ghana
+    gibraltar: Gibraltar
+    greece: Griechenland
+    grenada: Grenada
+    unitedkingdom: Großbritannien
+    guadeloupe: Guadeloupe
+    guatemala: Guatemala
+    guernsey: Guernsey
+    guinea: Guinea
+    guinea-bissau: Guinea-Bissau
+    guyana: Guyana
+    haiti: Haiti
+    honduras: Honduras
+    hongkong: Hongkong
+    iceland: Island
+    india: Indien
+    indonesia: Indonesien
+    iran: Iran
+    iraq: Irak
+    ireland: Irland
+    israel: Israel
+    italy: Italien 
+    jamaica: Jamaika
+    japan: Japan
+    yemen: Jemen 
+    jordan: Jordanien
+    cambodia: Kambodscha
+    cameroon: Kamerun
+    canada: Kanada
+    capeverde: Kap Verde
+    caymanislands: Kaimaninseln
+    kazakhstan: Kasachstan
+    qatar: Katar
+    kenya: Kenia
+    colombia: Kolumbien
+    comoros: Komoren
+    kiribati: Kiribati
+    croatia_hrvatska: Kroatien
+    cuba: Kuba
+    korea_north: Nordkorea     
+    kuwait: Kuwait
+    kyrgyzstan_kyrgyzrepublic: Kirgistan
+    laos: Laos
+    latvia: Lettland
+    lebanon: Libanon
+    lesotho: Lesotho
+    liberia: Liberia
+    libya: Libyen
+    liechtenstein: Liechtenstein
+    lithuania: Litauen
+    luxembourg: Luxemburg
+    macau: Macau
+    macedonia: Mazedonien
+    madagascar: Madagaskar
+    malawi: Malawi
+    malaysia: Malaysia
+    maldives: Malediven
+    mali: Mali
+    malta: Malta
+    martinique: Martinique
+    mauritania: Mauretanien
+    mauritius: Mauritius
+    mayotte: Mayotte
+    mexico: Mexiko
+    micronesia: Mikronesien                       
+    moldova: Moldau (Republik)
+    monaco: Monaco
+    mongolia: Mongolei
+    montenegro: Montenegro (Republik)
+    montserrat: Montserrat
+    morocco: Marokko
+    mozambique: Mosambik
+    myanmar: Myanmar
+    namibia: Namibia
+    nauru: Nauru
+    nepal: Nepal
+    netherlands: Niederlande
+    netherlandsantilles: Niederländische Antillen
+    newcaledonia: Neukaledonien
+    new_zealand: Neuseeland
+    nicaragua: Nicaragua
+    niger: Niger
+    nigeria: Nigeria
+    norfolkisland: Norfolkinseln (Australien)
+    norway: Norwegen
+    oman: Oman
+    austria: Österreich
+    pakistan: Pakistan
+    panama: Panama
+    papuanewguinea: Papua-Neuguinea
+    paraguay: Paraguay
+    peru: Peru
+    philippines: Philippinen
+    poland: Polen
+    portugal: Portugal
+    puertorico: Puerto Rico
+    romania: Rumänien
+    russianfederation: Russische Föderation
+    rwanda: Randa
+    zambia: Sambia
+    solomonislands: Salomonen
+    samoa: Samoa
+    sanmarino: San Marino
+    saotomeandprincipe: Sao Tome and Principe
+    saudiarabia: Saudi Arabien
+    senegal: Senegal
+    serbia: Serbien 
+    seychelles: Seychellen
+    sierraleone: Sierra Leone
+    singapore: Singapur
+    slovakia: Slowakei
+    slovenia: Slowenien
+    somalia: Somalia
+    spain: Spanien
+    southafrica: Südafrika
+    southkorea: Südkorea
+    sudan: Sudan
+    suriname: Suriname
+    srilanka: Sri Lanka
+    saintlucia: St. Lucia
+    sthelena: St. Helena
+    saintkittsandnevis: St. Kitts and Nevis
+    stpierreandmiquelon: St. Pierre and Miquelon
+    saintvincentandthegrenadines: St. Vincent and The Grenadines
+    swaziland: Swasiland
+    sweden: Schweden
+    switzerland: Schweiz
+    syria: Syrien 
+    taiwan: Taiwan
+    tajikistan: Tadschikistan
+    tanzania: Tansania
+    thailand: Thailand
+    togo: Togo
+    tonga: Tonga
+    trinidadandtobago: Trinidad und Tobago
+    chad: Tschad
+    czechrepublic: Tschechische Republik
+    easttimor: Timor-Leste
+    tunisia: Tunesien
+    turkey: Türkei
+    turkmenistan: Turkmenistan
+    turksandcaicosislands: Turks- und Caicosinseln
+    tuvalu: Tuvalu
+    uganda: Uganda
+    hungary: Ungarn
+    ukraine: Ukraine
+    uruguay: Uruguay
+    unitedstates: USA
+    uzbekistan: Usbekistan 
+    vanuatu: Vanuatu
+    vaticancitystate_holysee: Vatikanstadt
+    venezuela: Venezuela
+    unitedarab_emirates: Vereinigte Arabische Emirate
+    vietnam: Vietnam
+    wallisandfutunaislands: Wallis and Futuna
+    centralafricanrepublic: Zentralafrikanische Republik
+    cyprus: Zypern
+
+  activemodel: 
+    errors: 
+      template: 
+        body: "Bitte überprüfen Sie die folgenden Felder:"
+        header: 
+          one: "Konnte %{model} nicht speichern: ein Fehler."
+          other: "Konnte %{model} nicht speichern: %{count} Fehler."
+  activerecord: 
+    errors: 
+      full_messages:
+        format: "%{attribute} %{message}"
+      models:
+        account:
+          attributes:
+            subdomain:
+              format: 'Die Subdomain kann nur Zahlen, Buchstaben oder Bindestrich enthalten: a-Z,0-9,- keine Umlaute.'
+              exclusion: 'Die Subdomain ist reserviert.'
+        shift:
+          attributes:
+            starts_at:
+              shoul_be_in_schedule: 'muss in diesem Wochenplan liegen'
+            ends_at:
+              should_be_later_than_starts_at: 'muss später als das Anfangsdatum sein'
+              should_be_longer_than_10_minutes: 'muss länger als 10 Minuten sein'
+        
+      messages: 
+        wrong_size: "is the wrong size (should be %{file_size})"
+        size_too_small: "is to small (should be at least %{file_size})"
+        size_too_big: "is to big (should be at most %{file_size})"
+        accepted: "muss akzeptiert werden"
+        blank: "muss ausgefüllt werden"
+        confirmation: "stimmt nicht mit der Bestätigung überein"
+        empty: "muss ausgefüllt werden"
+        equal_to: "muss genau %{count} sein"
+        even: "muss gerade sein"
+        exclusion: "ist nicht verfügbar"
+        greater_than: "muss größer als %{count} sein"
+        greater_than_or_equal_to: "muss größer oder gleich %{count} sein"
+        inclusion: "ist kein gültiger Wert"
+        invalid: "ist nicht gültig"
+        less_than: "muss kleiner als %{count} sein"
+        less_than_or_equal_to: "muss kleiner oder gleich %{count} sein"
+        not_a_number: "ist keine Zahl"
+        not_an_integer: "muss ganzzahlig sein"
+        odd: "muss ungerade sein"
+        record_invalid: "Gültigkeitsprüfung ist fehlgeschlagen: %{errors}"
+        taken: "ist bereits vergeben"
+        too_long: "ist zu lang (nicht mehr als %{count} Zeichen)"
+        too_short: "ist zu kurz (nicht weniger als %{count} Zeichen)"
+        wrong_length: "hat die falsche Länge (muss genau %{count} Zeichen haben)"
+        user_already_added: "User already added"
+
+      template: 
+        body: "Bitte überprüfen Sie die folgenden Felder:"
+        header: 
+          one: "Konnte %{model} nicht speichern: ein Fehler."
+          other: "Konnte %{model} nicht speichern: %{count} Fehler."
+
+    attributes:
+      application:
+        attended: erschienen
+        cancel_reason: Begründung
+        accept_conditions: Ich bin mir sicher!
+
+      applications:
+        attended: erschienen
+        cancel_reason: Begründung
+      
+      invoice:
+        entry_fee: Entry Fee
+        bop: Datum
+        quantity: Tage
+        invoice_number: Rechnungs-Nr.
+        total_invoice: "RECHNUNGSBETRAG\n(Brutto)"
+        billing_first_name:  Vorname
+        billing_last_name: Nachname
+        billing_street: Straße
+        billing_additional_street: Adresszusatz
+        billing_zip: Postleitzahl
+        billing_city: Stadt
+        billing_country: Land
+        billing_company: Firma
+        
+      appearance:
+        header_background: Header Hintergrund
+        project_name: Projektname
+        client_name: Kundenname
+        current_tab_text: Aktueller Tab Text
+        tab_background: Tab Hintergrund
+        tab_text: Tab Text
+        tab_hover_background: Hover Tab Hintergrund
+        tab_hover_text: Hover Tab Text	
+        links: Links
+      
+      asset:
+        attachment: Datei
+        description: Beschreibung
+        shift_category: Abteilungen
+
+      account:
+        subdomain: Adresse
+        shortcut_icon: Favicon
+        logo: Logo
+        form_fields_attributes: Mitarbeiter Formular Felder
+        email_templates_attributes: Email Vorlagen
+        billing_first_name:  Vorname
+        billing_last_name: Nachname
+        billing_street: Straße
+        billing_additional_street: Adresszusatz
+        billing_zip: Postleitzahl
+        billing_city: Stadt
+        billing_country: Land
+        billing_company: Firma
+        assigments_visible_for_staff: Mitarbeiter können Belegung einsehen
+        account_create_conditions: AGB und Datenschutzbestimmungen
+        users:
+          password: Passwort
+          password_confirmation: Passwort bestätigen
+          first_name:  Vorname
+          last_name: Nachname
+          email: E-Mail
+          account: Account
+        shift_categories:
+          account: Konto
+          name: Name
+              
+      email_template:
+        from: Absender
+        bcc: Blindkopie
+        cc: Kopie
+        subject: Betreff
+        body: Text
+        
+      
+      shift:
+        shift_category: Abteilungen
+        category: Abteilung
+        desired_coverage: Benötigte Mitarbeiter
+        note: Bemerkung
+        starts_at_date: Beginnt am
+        starts_at_time: "um"
+        ends_at_date: Endet am
+        ends_at_time: "um"
+
+        mobile_starts_at_date: Beginnt am (TT.MM.YYYY)
+        mobile_starts_at_time: "um (HH:MM)"
+        mobile_ends_at_date: Endet am (TT.MM.YYYY)
+        mobile_ends_at_time: "um (HH:MM)"
+
+        starts_at: Beginnt um
+        ends_at: Endet um
+        ends_next_day: Endet am kommenden Tag
+
+      shift_category:
+        tos: Nutzungsbedingungen
+        tos_accepted_mandatory: Das Akzeptieren der Nutzungsbedingungen ist für den Mitarbeiter ist pflicht
+        
+      news_item:
+        shift_category: Abteilung
+        title: Überschrift
+        published_at: Veröffentlicht am
+      
+      user:
+        account_owner: Kontoinhaber
+        about_me: Über mich
+        interests: Interessen
+        roles: Rechte
+        remember_me: Passwort speichern
+        first_name:  Vorname
+        last_name: Nachname
+        email: E-Mail
+        username: Nutzername
+        password: Passwort
+        password_confirmation: Passwort bestätigen
+        admin: Mitarbeiter soll Administrator Rechte besitzen.
+        shift_category: Abteilung
+        address: Adresse
+        phone_number_office: Telefon
+        phone_number_mobile: Mobil
+        phone: Telefon
+        im_handle: Messanger
+        im_service: Anbieter
+        shift_categories: Abteilungen
+        encrypted_password: Passwort
+        street: Straße
+        additional_street: Adresszusatz
+        zip: Postleitzahl
+        city: Stadt
+        country: Land
+        company: Firma
+
+      schedule:
+        remove_data_since: Alle Wochenpläne vor diesem Monat werden gelöscht
+    
+    schedule:
+      import_schedule: Wochenplan
+      import_assignments: Belegung importieren
+      import_shift_categories: folgende Abteilungen importieren
+      remove_data_since: Anzahle der letzten Monate die nicht gelöscht werden sollen.
+
+    models:
+      appearance: Farbschema
+      order: Bestellung
+      asset: Datei
+      question: Frage
+      answer: Antwort
+      news_item: Mitteilung
+      shift: Schicht
+      schedule: Wochenplan
+      user: Mitarbeiter
+      application: Belegung
+      news: Mitteilung
+      account: Account     
+      shift_category: Abteilung
+     
+  date: 
+    abbr_day_names: 
+      - So
+      - Mo
+      - Di
+      - Mi
+      - Do
+      - Fr
+      - Sa
+    abbr_month_names: 
+      - ~
+      - Jan
+      - Feb
+      - Mär
+      - Apr
+      - Mai
+      - Jun
+      - Jul
+      - Aug
+      - Sep
+      - Okt
+      - Nov
+      - Dez
+    day_names: 
+      - Sonntag
+      - Montag
+      - Dienstag
+      - Mittwoch
+      - Donnerstag
+      - Freitag
+      - Samstag
+    formats: 
+      default: "%d.%m.%Y"
+      long: "%e. %B %Y"
+      only_day: "%e"
+      short: "%e. %b"
+    month_names: 
+      - ~
+      - Januar
+      - Februar
+      - März
+      - April
+      - Mai
+      - Juni
+      - Juli
+      - August
+      - September
+      - Oktober
+      - November
+      - Dezember
+    order: 
+      - !ruby/symbol day
+      - !ruby/symbol month
+      - !ruby/symbol year
+  datetime: 
+    distance_in_words: 
+      about_x_hours: 
+        one: "etwa eine Stunde"
+        other: "etwa %{count} Stunden"
+      about_x_months: 
+        one: "etwa einem Monat"
+        other: "etwa %{count} Monaten"
+      about_x_years: 
+        one: "etwa einem Jahr"
+        other: "etwa %{count} Jahren"
+      almost_x_years: 
+        one: "fast ein Jahr"
+        other: "fast %{count} Jahren"
+      half_a_minute: "eine halben Minute"
+      less_than_x_minutes: 
+        one: "weniger als einer Minute"
+        other: "weniger als %{count} Minuten"
+      less_than_x_seconds: 
+        one: "weniger als einer Sekunde"
+        other: "weniger als %{count} Sekunden"
+      over_x_years: 
+        one: "mehr als einem Jahr"
+        other: "mehr als %{count} Jahren"
+      x_days: 
+        one: "einem Tag"
+        other: "%{count} Tagen"
+      x_minutes: 
+        one: "einer Minute"
+        other: "%{count} Minuten"
+      x_months: 
+        one: "einem Monat"
+        other: "%{count} Monaten"
+      x_seconds: 
+        one: "einer Sekunde"
+        other: "%{count} Sekunden"
+    prompts: 
+      day: Tag
+      hour: Stunden
+      minute: Minuten
+      month: Monat
+      second: Sekunden
+      year: Jahr
+      date: Datum
+  errors: 
+    format: "%{attribute} %{message}"
+    messages: 
+      accepted: "muss akzeptiert werden"
+      blank: "muss ausgefüllt werden"
+      confirmation: "stimmt nicht mit der Bestätigung überein"
+      empty: "muss ausgefüllt werden"
+      equal_to: "muss genau %{count} sein"
+      even: "muss gerade sein"
+      exclusion: "ist nicht verfügbar"
+      greater_than: "muss größer als %{count} sein"
+      greater_than_or_equal_to: "muss größer oder gleich %{count} sein"
+      inclusion: "ist kein gültiger Wert"
+      invalid: "ist nicht gültig"
+      less_than: "muss kleiner als %{count} sein"
+      less_than_or_equal_to: "muss kleiner oder gleich %{count} sein"
+      not_a_number: "ist keine Zahl"
+      not_an_integer: "muss ganzzahlig sein"
+      odd: "muss ungerade sein"
+      too_long: "ist zu lang (nicht mehr als %{count} Zeichen)"
+      too_short: "ist zu kurz (nicht weniger als %{count} Zeichen)"
+      wrong_length: "hat die falsche Länge (muss genau %{count} Zeichen haben)"
+  helpers: 
+    select: 
+      prompt: "Bitte wählen"
+    submit: 
+      create: "%{model} erstellen"
+      submit: "%{model} speichern"
+      update: "%{model} aktualisieren"
+  number: 
+    currency: 
+      format: 
+        delimiter: ""
+        format: "%n%u"
+        precision: 2
+        separator: ","
+        significant: false
+        strip_insignificant_zeros: false
+        unit: €
+    format: 
+      delimiter: "."
+      precision: 2
+      separator: ","
+      significant: false
+      strip_insignificant_zeros: false
+    human: 
+      decimal_units: 
+        format: "%n %u"
+        units: 
+          billion: 
+            one: Milliarde
+            others: Milliarden
+          million: Millionen
+          quadrillion: 
+            one: Billiarde
+            others: Billiarden
+          thousand: Tausend
+          trillion: Billionen
+          unit: ""
+      format: 
+        delimiter: ""
+        precision: 1
+        significant: true
+        strip_insignificant_zeros: true
+      storage_units: 
+        format: "%n %u"
+        units: 
+          byte: 
+            one: Byte
+            other: Bytes
+          gb: GB
+          kb: KB
+          mb: MB
+          tb: TB
+    percentage: 
+      format: 
+        delimiter: ""
+    precision: 
+      format: 
+        delimiter: ""
+  support: 
+    array: 
+      last_word_connector: " und "
+      two_words_connector: " und "
+      words_connector: ", "
+    select: 
+      prompt: "Bitte wählen:"
+  time: 
+    am: vormittags
+    formats: 
+      default: "%A, %d. %B %Y, %H:%M Uhr"
+      long: "%A, %d. %B %Y, %H:%M Uhr"
+      short: "%d. %B, %H:%M Uhr"
+      time: "%H:%M"
+    pm: nachmittags
+  
+  global:
+    select: Auswählen
+    pdf: PDF
+    download_pdf: Download als PDF
+    created_since: erstellt vor %{time_ago_in_words}
+    actions: Aktionen
+    download: Download
+    creted_from: Erstellt von
+    close: Schließen
+    select_all: Alle auswählen
+    sort: Sortieren
+    sort_by_date: Nach Datum
+    sort_by_shift_category: Nach Abteilung
+    sort_by_letter: A-Z
+    created_from: Erstellt von
+    since: for
+    preview: Vorschau
+    save_changes: Änderungen speichern
+    email: E-Mail
+    filter: Filter
+    all: Alle
+    from: von
+    at: um
+    more: mehr »
+    back: zurück
+    less: « weniger
+    edit: Bearbeiten
+    delete: Löschen
+    move: Bewegen
+    delete_confirm: Bist du sicher ?
+    save: Speichern
+    for: für
+    date: Datum
+    week: Woche
+  
+  ########################
+  # RESSOURCES
+  
+  application:
+    cancel_application_hint: Bitte gebe einen Grund für deine Absage an.
+    not_attended: nicht erschienen
+    attended: erschienen
+    cancel_application_button: Besetzung absagen
+    accept_application: Belegung Verbindlich zusagen
+    accept: Belegung annehmen
+    accept_oblige: Verbindlich zusagen
+    cancel_application_description: "<h3>Schicht zum Tausch freigeben <img src='/images/icons/arrow_refresh.png'/></h3><p>Du bleibst so lange eingetragen bis jemand deine Schicht besetzt. <br/> Alle Mitarbeiter werden per E-Mail über den angebotenen Tausch informiert.</p>"
+    to_offer_in_exchange: "Zum Tausch freigeben"
+    offered_for_exchange: "Du hast die Schicht zum Tausch freigegeben"
+    
+  
+  appearance:
+    choose_color_scheme: Farbpalette auswählen
+    custom_color_scheme: Eigene Farben
+    customize_colors: Farben anpassen
+    project_name: Projektname
+    that_is_a_link_color: Dies ist die Linkfarbe.
+    hover_tab: Hover Tab
+    standart_tab: Normaler Tab
+    active_tab: Aktiver Tab
+    preview: Vorschau
+    save_button: Diese Farben speichern
+    
+  invoice:
+    invoice.update_error_message: 'Email Templates konten nicht geändert werden. bitte fehler beheben.'
+    billed_invoices: Gestellte Rechnungen
+    billing_address: Rechnungsadresse
+    invoice: Rechnung
+    customer_id: Kundennummer
+    order_number: Bestellnummer
+    invoice_number: Rechnungs-Nr.
+    your_order: Deine Bestellung
+    total_invoice: "RECHNUNGSBETRAG\n(Brutto)"
+    account_charged: Der Gesamtbetrag wurde von deinem Konto abgebucht.
+    transaction_date: Transaktionsdatum
+    transaction_number: Transaktionsnummer
+    payment_details: Deine Bezahldaten
+    paid: Bezahlt!
+    pay_invoice: Bitte überweise den Rechnungsbetrag innerhalb von 14 Tagen auf das unten genannte Konto.
+    billing_date: Rechnungsdatum
+    footer_text: "Staffomatic ist eine Marke von 2Many People UG (haftungsbeschränkt) & Co. KG - Internet: <color rgb='0000FF'><link href='http://staffomatic.com'>www.staffomatic.com</link></color>  Bergiusstr. 1 22765 Hamburg  – D-22765 Hamburg – Deutschland - Telefon: +49 (0)176 23160989 - E-Mail: <color rgb='0000FF'><link href='mailto:support@staffomatic.com'>support@staffomatic.com</link></color> – UmsatzsteuerIdentifikation.:  DE266612664 - Eingetragen im Handelsregister des Amtsgerichts Hamburg unter HRA  110530 - Vertreten durch die Komplementärin 2ManyPeople Verwaltungs UG (haftungsbeschränkt), diese eingetragen ebenda unter HRB 110626; für diese jeweils alleinvertretungsberechtigte Geschäftsführer: Kalle Saas und Anne Marschke"
+    bank_details: "Bankverbindung: Kto: 113 1416 - BLZ: 100 70 124 - Deutsche Bank - Frankfurt a. Main"
+
+    table:
+      billable_days_from_full_month: Tage vom vollen Monat
+      product: PLAN
+      unit_price: "STÜCKPREIS\n(Netto)"
+      quantity: MENGE
+      subtotal: "ZWISCHENSUMME\n(Netto)"
+      shipping: VERSAND
+      vat: "MwSt.\n(19%)"
+      total: "GESAMTSUMME\n(Brutto)"
+      invoice_number: Rechnungs-Nr.
+      billing_date: Zeitraum
+      total_invoice: "Betrag (Brutto)"
+      download: PDF
+      pdf: PDF
+      paid: Bezahlt
+    payment:
+      service_provider: Bezahldienstleister
+      status: Status
+      amount_due: Offener Betrag
+      questions: Hast du Fragen zum Bezahlverfahren?
+    email:
+      subject: "Ihre Rechnung Online, Rechnungs-Nr. %{invoice_number} vom %{invoice_date}"
+      invoice: Rechnung %{invoice_number}.pdf
+
+    #footer_text_en: "Bergiusstr. 1 22765 Hamburg  – D-22765 Hamburg – Germany - Phone: +49 (0)176 23160989 - E-Mail: <color rgb='0000FF'><link href='mailto:support@staffomatic.com'>support@staffomatic.com</link></color> – VAT ID:  DE266612664 – Trade register entry: Amtsgerichts Hamburg under HRA  110530 – KG represented through the corporate holding 2ManyPeople Verwaltungs UG (haftungsbeschränkt), whith a trade register entry ibidem under HRB 110626; Managing Directors with sole power of representation: Kalle Saas and Anne Marschke"
+  
+  asset:
+    create: Neue Datei hochladen
+    shift_category_hint: "Nur Mitarbeiter aus der ausgewählten Abteilung können diesen News Beitrag sehen."
+    notify_people_via_email: Mitarbeiter per E-Mail benachrichtigen
+    uploaded_by: Hochgeladen von
+    no_assets_available: Keine Dateien vorhanden
+    not_assigned_to_shift_category: keiner Abteillung zugeordnet
+    create_new_asset: Neue Datei hochladen
+    create: Speichern
+    edit: Datei bearbeiten
+      
+  report:
+    corrected_application_time_tooltip: "Anwesenheit wurde korrigiert zu %{total_hours}"
+    no_reports_available: Keine Arbeitseinsätze vorhanden
+    show: Zeige
+    all_users: Alle Mitarbeiter
+    hours_from: "`s Stunden von"
+    hours_from_you: "Zeige Deine Stunden von:"
+    create: Erstellen
+    all_reports: Alle Arbeitseinsätze
+    all_reports_from_to: "Alle Arbeitseinsätze von %{from} bis %{to}:"
+    
+  note:
+    add_new_note: Neue Notiz schreiben
+    note_admin_information: Nur Administratoren können Notizen lesen. 
+    create_note: Notiz anlegen
+    no_notes_available: keine Notizen vorhanden
+
+  assignment:
+    upcoming: Anstehend
+    past: Vergangen
+    no_assignments_available: Keine Arbeitseinsätze vorhanden
+
+  role:
+    admin: Administrator
+    manager: Manager
+    staff: Mitarbeiter
+
+  user:
+    activate_account: Account aktivieren
+    custom_form_fields_hint: "Du kannst für deine Mitarbeiter eigene Formular Felder anlegen hier ein Beispiel:"
+    custom_form_fields_hint_link: ">> Jetzt Formular Felder Anlegen!"
+    inactive_explanation: Mitarbeiter hat seine Einladung noch nicht bestätigt.
+    user_category_hint: Mitarbeiter können sich nur für Schichten bewerben für die sie eingeteilt sind.
+    user_without_admin_rights_hint: Mitarbeiter ohne Admin rechte können keine Mitarbeiter Anlegen, Pläne editieren oder Account Informationen einsehen.
+    rights: Rechte
+    set_login_information: Login Festlegen
+    add_new_user: Mitarbeiter anlegen
+    not_assigned: nicht Zugeordnet
+    change_password: Passwort ändern
+    categories_hint: Mitarbeiter können sich nur für Schichten bewerben denen sie zugeilt sind.
+    roles_hint: Mitarbeiter ohne Administrator Rechte können sich nur für Schichten bewerben oder ihre eigenen Auswertungen vornehmen.
+    roles: Rollen
+    remove_image: Bild Löschen
+    edit_myself: Dein Profil bearbeiten
+    edit_user: Mitarbeiter bearbeiten
+    delete_user: Mitarbeiter löschen
+    created_answers: Erstellte Antworten
+    no_created_answers: Keine Antworten erstellt
+    created_questions: Gestellte Fragen.
+    no_created_questions: Noch keine Antwort erstellt.
+    contact_information: Kontaktinformationen
+    add_new_user: Neuen Mitarbeiter anlegen
+    inactive: Inaktive
+    no_shift_category_assigned: Keine Abteilung festgelegt
+    no_full_name: kein Name vorhanden
+    about_me_default: Nice to see you!
+    form_fields: Formular Felder
+    no_phone_number_office: Keine Nummer angegeben
+    no_address: Keine Adresse angegeben
+    contact_information: Kontakt Informationen
+    phone_number_office: Telefon
+    phone_number_mobile: Mobil
+    no_im_handle: kein messenger vorhanden
+    interests: Interessen
+    no_interests: keine interessen vorhanden
+
+  ## configuration
+  configuration:
+    save_button: Einstellungen speichern
+    headline: Projektname
+    assets_visible:  Dateien aktiviert
+    news_items_visible: Mitteilungen aktiviert
+    questions_visible: Wissensportal aktiviert
+    reports_visible: Auswertung aktiviert
+    delete_data: Daten löschen
+
+  address:
+    title:
+    ms: "Frau"
+    miss: "Frau"
+    mr: "Herr"
+    dr: "Dr."
+    prof: "Prof."
+      
+  account:
+    create_account: Konto erstellen
+    plans: Pläne
+    canceled: "Konto erfolgreich gekuendigt"
+    billing_address: Rechnungsadresse
+    select_emal_template_for_customization: "Wähle ein E-Mail Template aus zum beabeiten:"
+    settings: Einstellungen
+    custom_user_fields: Mitarbeiter Formular Felder
+    email_templates: Email Vorlagen
+    logo: Logo
+    shortcut_icon_hint: "only *.jpg *.jpeg *.gif *.png"
+    field_options_hint: Optionen mit Komma trennen
+    add_field: Field hinzufügen
+    invoices: Rechnungen
+    email_template_name:
+      accept_replacement: Vertretung akzeptieren
+      application_cancel: Belegung abgesagt
+      notify_backup_user: Belegung frei geworden
+      schedule_published: Wochenplan freigeben
+      schedule_locked: Wochenplan Verschickt
+      schedule_republished: Wochenplan aktualisiert
+      user_confirmation_instructions: Mitarbeiter Einladung
+      user_reset_password_instructions: Passwort Rücksetzung
+      question_create: Frage erstellt
+      answer_create: Antwort erstellt
+      question_answered: Frage beantwortet
+      news_item_create: Mitteilung erstellt
+      asset_create: Datei hochgeladen
+
+
+  answer:
+    recent_answers: Letze Antworten
+    mark_as_valid_answer: Als korrekte Antwort markieren
+    valid_answer: Als korrekte Antwort markieren
+  
+  question:
+    edit: Frage bearbeiten
+    create: Frage stellen
+    create_new: neue Frage stellen
+    tagged_with: Tagged mit
+    created_at: Gestellt am
+    recent_questions: Letze Fragen
+    no_question_available: Es wurde keine Frage zu dem Thema gefunden.
+    unanswered: Unbeantwortet
+    answered: Beantwortet
+    views: Views
+    remove_correct_answer: richtige Antwort entfernen
+    mark_as_correct_answer: Als richtige Antwort markieren
+    answer_question: Frage beantworten
+  
+  log:
+    recent_activities: Letzt Aktivitäten in deinem Projekt
+    no_log_entries_present: Es sind noch keine Einträge im Protokoll vorhanden.
+    type_fiter: Filter nach Type
+    users_fiter: Filter nach Mitarbeiter
+    activated_his_account: Hat seinen Account aktiviert
+
+    # Log Entry Text
+    object_deleted: "<small>(Eintrag wurde gelöscht)</small>"
+    
+    # ACCOUNT
+    edit_account: Account wurde geändert (%{changes})
+    account_create: Account wurde erstellt
+    
+    # application
+    application_revoked: Bewerbung zurückgezogen
+    applied_for: Bewerbung erstellt (am %{shift_start} in %{category}) 
+    application_assigned: Belegung erstellt (%{username} am  %{shift_start} in %{category})
+    
+    # SHIFT
+    shift_destroy: Schicht gelöscht
+    shift_create: "Schicht erstellt (Start: %{starts_at}, Belegung: %{desired_coverage}, Abteilung: %{category})"
+    
+    # SCHEDULE
+    schedule_published: "Wochenplan veröffentlicht (%{link})"
+    schedule_locked: "Wochenplan verschickt (%{link})"
+    republished: "Wochenplan aktualisiert"
+    
+    # User
+    user: Mitarbeiter
+    edit_users: "%{whose_settings} wurde bearbeitet (%{changes})"
+    add_user: "hat den User %{link} angelegt"
+    
+    # NEWS ITEM
+    news: Mitteilung
+    news_item_create: Mitteilung erstellt %{link}
+    news_item_update: Mitteilung geändert %{link}
+    news_item_destroy: Mitteilung gelöscht
+    
+    # ASSET
+    asset: Datei
+    asset_create: Neue Datei hochgeladen %{link}
+    asset_update: Datei wurde bearbeitet %{link}
+    asset_destroy: Datei wurde gelöscht
+    
+    # ANSWER
+    answer_create: Antwort erstellt %{link}
+    answer_update: Antwort geändert %{link}
+    answer_destroy: Antwort gelöscht
+
+    # QUESTION
+    question_create: Frage erstellt %{link}
+    question_update: Frage erstellt %{link}
+    question_destroy: Frage gelöscht
+
+    # Allgemein
+    answer: Antwort
+    question: Frage
+    application: Belegung
+    shift: Schicht
+    schedule: Wochenplan
+    
+  shift:
+    create_shift: Schicht erstellen
+    update_shift: Schicht speichern
+    new_shift: Neue Schicht
+    applications: Belegung
+    applicants: Bewerber
+    show_all_users: Alle Mitarbeiter zeigen
+    edit_shift: Schicht Bearbeiten
+    remove_application: "Bewerbung zurückziehen"
+    assignments: Belegung
+    no_assignments_available: Keine Belegung vorhanden
+    edit_attendence: Anwesenheit bearbeiten
+    attendence_tip: "Lege fest, wer anwesend war und wie viele Stunden abgerechnet werden dürfen."
+    create_shift_category_first: "Bevor du Schichten erstellen kannst musst du noch Abteilungen anlegen."
+    create_shift_category_now: "Jetzt Abteilung anlegen"
+    
+
+  schedule:
+    schedule_link_to_pending: Wochenplan zurückziehen
+    schedule_link_to_published: Wochenplan freigeben
+    schedule_link_to_locked: Wochenplan verschicken
+    schedule_link_to_republished: Wochenplan aktualisieren
+    no_schedules_to_import_available: Keine Wochenpläne zum importieren vorhanden.
+    destroy_sifts_in_shift_categories: Schichten aus ausgewählten Abteilungen löschen
+    destroy_shifts_button: Schichten löschen
+    destroy_shifts: Löschen
+    destroy_shifts_hint: Hier kannst du Schichten aus ausgewählten Abteilungen löschen
+    import_schedule: Wochenplan
+    import_assignments: Belegung importieren
+    import_shift_categories: Folgende Abteilungen importieren
+    help: "?"
+    help_text: Zeigt dir den aktuellen Status des Wochenplans an.
+    schedule_lock_confirm: Bist du sicher?
+    pending_link_text_title: Der Wochenplan ist nicht mehr für Mitarbeiter sichtbar.
+    schedule_publish_confirm: Bist du sicher?
+    schedule_pending_confirm: Bist du sicher?
+    current_week: Aktuelle Woche
+    shifts_imported: %{count} Schichten importiert.
+    update_success: Plan wurde erfolgreich bearbeitet
+    update_fail: Plan konnte nicht bearbeitet werden.
+    your_shift_count: Du wurdest für %{shifts} besetzt.
+    personal_apply_information: "Du hast dich auf %{applied_count} in diesem Plan beworben"
+    no_applications_for_this_schedule: "Keine Bewerbung von dir vorhanden"
+    last_week: letzte Woche
+    schedule_information: "<strong>%{shift_count}</strong> Schicht(en) vorhanden und noch <strong>%{assignments_count}</strong> Belegungen übrig"
+    schedule_information_overcrowding: "<strong>%{shift_count}</strong> Schicht(en) vorhanden und <i><strong>%{assignments_count}</strong></i> Überbelegungen vorhanden"
+    no_shifts_available_yet: keine Schichten vorhanden
+    add_shifts: "Schichten anlege &raquo;"
+    choose_plan: Wochenplan wählen
+    page_title: "Plan für die Wochen %{week} | %{period_string}"
+    add_shift: neue Schicht
+    add_shift_title: Sie können Schichten auch per Drag and Drop direkt im Kalender hinzufügen.
+    staff_drag_and_drop_hint: Ziehen sie mit der Maus Mitarbeiter auf eine Schicht um sie der Schicht hinzuzufügen.
+    user_with_dad: Mitarbeiter <small>Drag and Drop</small>
+    display_categories: "Abteilungen anzeigen:"
+    display_shift_categories_by_applications: Farben nach Belegung
+    import_shifts_hint: Sie können Schichten aus einem vorhandenen Wochenplan hinzufügen
+    import_shifts: Schichten importieren
+    import_with_assinments_title: Es werden alle vorhandenen Belegungen aus der Schicht mit übernommen
+    import_with_assinments_label: Belegung importieren
+    past_schedules: Vergangene Pläne
+    upcoming_schedule: Kommende Wochenpläne
+    publish_link_text: zum Bewerben freigeben
+    publish_link_text_title: Informiert deine Mitarbeiter per E-Mail das sie sich in diesem Wochenplan für Schichten bewerben können.
+    schedule_publish_confirm: Bist du sicher ?
+    lock_link_text: Verschicken
+    lock_link_text_title: Informiert deine Mitarbeiter per E-Mail das dieser Wochenplan feststeht und keine weiteren Änderungen mehr vorgenommen werden.
+    republished_link_text_title: Informiert deine Mitarbeiter per E-Mail das sich der Wochenplan aktualisiert hat.
+    no_schedule_available: Keine Wochenpläne vorhanden
+    what_means_published: Damit gibst du den Wochenplan für deine Mitarbeiter frei. Sie können sich dann für eingetragenen Schichten bewerben.
+    published: Freigegeben
+    locked: Verschickt
+    do_republished: Aktualisieren
+    republished: aktualisiert
+    what_means_lock: Eine E-Mail mit der Finalen Belegung wird an die Mitarbeiter geschickt.
+    pending: Entwurf
+    what_means_pending: Der Wochenplan ist nur für dich sichtbar. Du kannst ihn bearbeiten und später an deine Mitarbeiter versenden.
+    state: Status
+    current_upcoming_schedules: Aktueller und kommende Pläne
+    deleted: Plan wurde gelöscht
+    your_shifts_tooltip: Schicht in der du besetzt bist
+    full_shifts_tooltip: Besetzte Schichten
+    not_full_shifts_tooltip: Unterbesetzte Schichten
+    edit_details: "Details bearbeiten »"
+    
+  form_field:
+    success_update_message: 'Custom Form Fields wurden erfolgreich aktualisiert.'
+    error_update_message: 'Custom Form Fields konten nicht geändert werden. bitte fehler beheben.'
+  
+  # NEWS ITEMS
+  news_item:
+    notify_people_via_email: Mitarbeiter per E-Mail benachrichtigen
+    shift_cateory_select_hint: "Nur Mitarbeiter aus der ausgewählten Abteilung können diese Mitteilung sehen."
+    create: Mitteilung erstellen
+    show_all: Alle Mitteilungen zeigen »
+    no_news_items_available: Keine Mitteilungen gefunden
+    create_new: neue Mitteilung erstellen
+    edit: Mitteilung bearbeiten
+  
+  
+  shift_categories_user:
+    tos_accepted: Nutzungsbedingungen wurden akzeptiert
+    decline: Nutzungsbedingungen nicht akzeptieren
+    accept: Nutzungsbedingungen akzeptieren
+    accept_text: "Hiermit bestätigt der Auftragnehmer, dass er die Bedingungen für dieses Projekt vollständig gelesen, verstanden hat und die Nutzungsbedingungen akzeptiert."
+  
+  
+  # CATEGORY
+  shift_category:
+    add_new_shift_category: "Neue Abteilungen anlegen"
+    more_unaccepted_tos: "Weitere neue Abteilungen:"
+    not_yet_accepted: Nutzungsbedingungen noch nicht bestätigt
+    tos_accepted_mandatory_hint: Aktiviere diese Option, wenn der Mitarbeiter die Nutzungsbedingungen akzeptieren soll, um in dieser Abteilung zu arbeiten.
+    create_category: Abteilung erstellen
+    edit_shift_category: Abteilung bearbeiten
+    tos_accepted_mandatory: Akzeptieren der Nutzungsbedingungen ist für den Mitarbeiter pflicht.
+    please_accept_tos: Bitte bestätige die Nutzungsbedingungen folgender Abteilungen um deren Schichten anzuzeigen.
+    read_tos: lesen #Nutzungsbedingungen lesen
+    tos_not_accepted: Nutzungsbedingungen nicht akzeptiert
+    edit_rights: Rechte bearbeiten
+    no_categories_created: Keine Abteilungen vorhanden
+    dragn_drop: Mitarbeiter Drag and Drop
+    add_new: Neue Abteilung anlegen
+    user_already_assigned: Mitarbeiter wurde schon hinzugefügt.
+    tos_hint: Du kannst Nutzungsbedingungen für jede Abteilung anlegen. Diese können etwa Vergütungsvereinbarungen oder ähnliches enthalten.
+    
+  
+  # DASHBOARD
+  dashboard:
+    recent_news_items: Aktuelle Mitteilungen
+    new_shift_categories: "Neue Abteilungen:"
+  
+  ## NAVIGATION
+  navigation:
+    help: Hilfe
+    register: Account erstellen
+    account: Konto
+    menue: Menue
+    change_role: Rolle wechseln zu
+    appearances: Farbschema
+    invoices: Rechnungen
+    invoice: Rechnung
+    answers: Antworten
+    tags: Tags
+    dashboard: Übersicht
+    users: Mitarbeiter
+    schedules: Wochenpläne
+    schedule: Wochenplan
+    shift_categories: Abteilungen
+    shift_categories: Abteilungen
+    log: Protokoll
+    reports: Auswertung
+    configuration: Einstellungen
+    news_items: Mitteilungen
+    news_item: Mitteilung
+    assets: Dateien
+    questions: Wissensportal
+    shifts: Schichten
+    notes: Notizen
+    assignments: Arbeitseinsätze
+    form_fields: Formular Felder
+    options:
+      my_profil: Mein Profil
+      logged_in_as: Eingeloggt als
+      change_user: Sei mal jemand anders...
+      edit_profil: Profil bearbeiten
+      logout: Abmelden
+      profil_settings: Profil & Einstellungen
+  
+  ## PLAN ERRO MESSAGES
+  plan:
+    applications: Bewerbungssystem
+    users: Mitarbeiter
+    shift_categories: Abteilungen
+    ssl: SSL
+    reports: Auswertung
+    max_asset_file_size: Max Datei Upload
+    assets: File Sharing
+    questions: Wissensportal
+    news_items: Mitteilungen
+    locations:  Locations
+    max_asset_file_size_reached: Leider ist dein Upload-Limit erreicht.
+    max_user_count_reached: Du kannst leider keine neuen Mitarbeiter anlegen - Bitte Upgrade deinen Plan
+    max_shift_categories_reached: Du kannst leider keine neuen Abteilungen anlegen - Bitte Upgrade deinen Plan
+    feature:
+      available: 
+      not_available: "Feature ist in diesem Plan nicht enthalten, Bitte den Plan upgraden."
+      
+  ## CONTROLLER FLASH MESSAGES
+  flash:
+    accounts:
+      create:
+        success: Dein Konto wurde erfolgreich erstellt.
+        error: Dein Konto konnte nicht erstellt werden.
+      update:
+        success: Konto wurden erfolgreich aktualisiert.
+        error: Konto konnte nicht geändert werden.
+      destroy:
+        success: Konto wurden erfolgreich gelöscht
+        error: Konto konnte nicht gelöscht werden
+
+    activations:
+      show:
+        error: 'Kein User für diesen Aktivierungs-Code gefunden.'
+      create:
+        success: Mitarbeiter Erfolgreich aktiviert
+        error: Mitarbeiter konnte nicht aktiviert werden
+    
+    acts_as_taggable_on:
+      create:
+        success: Dein Tag wurde erfolgreich erstellt.
+        error: Dein Tag konnte nicht erstellt werden.
+      update:
+        success: Tag wurden erfolgreich aktualisiert.
+        error: Tag konnte nicht geändert werden.
+      destroy:
+        success: Tag wurden erfolgreich gelöscht
+        error: Tag konnte nicht gelöscht werden
+    
+    answers:
+      create:
+        success: Deine Antwort wurde erfolgreich erstellt.
+        error: Deine Antwort konnte nicht erstellt werden.
+      update:
+        success: Antwort wurden erfolgreich aktualisiert.
+        error: Antwort konnte nicht geändert werden.
+      destroy:
+        success: Antwort wurden erfolgreich gelöscht
+        error: Antwort konnte nicht gelöscht werden
+    
+    applications:
+      create:
+        success: Deine Bewerbung wurde erfolgreich erstellt.
+        error: Deine Bewerbung konnte nicht erstellt werden.
+      update:
+        success: Bewerbung wurden erfolgreich aktualisiert.
+        error: Bewerbung konnte nicht geändert werden.
+      destroy:
+        success: Bewerbung wurden erfolgreich gelöscht
+        error: Bewerbung konnte nicht gelöscht werden
+
+    assets:
+      create:
+        success: Datei wurde erfolgreich erstellt.
+        error: Datei konnte nicht erstellt werden.
+      update:
+        success: Datei wurden erfolgreich aktualisiert.
+        error: Datei konnte nicht geändert werden.
+      destroy:
+        success: Datei wurden erfolgreich gelöscht
+        error: Datei konnte nicht gelöscht werden
+    
+    appearances:
+      create:
+        success: Farbschema wurde erfolgreich erstellt.
+        error: Farbschema konnte nicht erstellt werden.
+      update:
+        success: Farbschema wurden erfolgreich aktualisiert.
+        error: Farbschema konnte nicht geändert werden.
+      destroy:
+        success: Farbschema wurden erfolgreich gelöscht
+        error: Farbschema konnte nicht gelöscht werden
+    
+    form_fields:  
+      create:
+        success: Formular Felder wurde erfolgreich erstellt.
+        error: Formular Felder konnte nicht erstellt werden.
+      update:
+        success: Formular Felder wurden erfolgreich aktualisiert.
+        error: Formular Felder konnte nicht geändert werden.
+      destroy:
+        success: Formular Felder wurden erfolgreich gelöscht
+        error: Formular Felder konnte nicht gelöscht werden
+    
+    invoices:
+      create:
+        success: Rechnung Felder wurde erfolgreich erstellt.
+        error: Rechnung Felder konnte nicht erstellt werden.
+      update:
+        success: Rechnung Felder wurden erfolgreich aktualisiert.
+        error: Rechnung Felder konnte nicht geändert werden.
+      destroy:
+        success: Rechnung Felder wurden erfolgreich gelöscht
+        error: Formular Felder konnte nicht gelöscht werden
+
+    plans:
+      create:
+        success: Plan wurde erfolgreich erstellt.
+        error: Plan konnte nicht erstellt werden.
+      update:
+        success: Plan wurden erfolgreich aktualisiert.
+        error: Plan konnte nicht geändert werden.
+      destroy:
+        success: Plan wurden erfolgreich gelöscht
+        error: Plan konnte nicht gelöscht werden
+
+    news_items:
+      create:
+        success: Mitteilungen wurde erfolgreich erstellt.
+        error: Mitteilungen konnte nicht erstellt werden.
+      update:
+        success: Mitteilungen wurden erfolgreich aktualisiert.
+        error: Mitteilungen konnte nicht geändert werden.
+      destroy:
+        success: Mitteilungen wurden erfolgreich gelöscht
+        error: Mitteilungen konnte nicht gelöscht werden
+    
+    notes:
+      create:
+        success: Notiz wurde erfolgreich erstellt.
+        error: Notiz konnte nicht erstellt werden.
+      update:
+        success: Notiz wurden erfolgreich aktualisiert.
+        error: Notiz konnte nicht geändert werden.
+      destroy:
+        success: Notiz wurden erfolgreich gelöscht
+        error: Notiz konnte nicht gelöscht werden
+
+    questions:
+      create:
+        success: Frage wurde erfolgreich erstellt.
+        error: Frage konnte nicht erstellt werden.
+      update:
+        success: Frage wurden erfolgreich aktualisiert.
+        error: Frage konnte nicht geändert werden.
+      destroy:
+        success: Frage wurden erfolgreich gelöscht
+        error: Frage konnte nicht gelöscht werden
+
+    reports:
+      create:
+        success: Auswertung wurde erfolgreich erstellt.
+        error: Auswertung konnte nicht erstellt werden.
+      update:
+        success: Auswertung wurden erfolgreich aktualisiert.
+        error: Auswertung konnte nicht geändert werden.
+      destroy:
+        success: Auswertung wurden erfolgreich gelöscht
+        error: Auswertung konnte nicht gelöscht werden
+    
+    schedule_states:
+      update:
+        published: Wochenplan wurde veröffentlicht
+        locked: Wochenplan wurde Verschickt
+        pending: Wochenplan wurde als Entwurf gespeichert
+        republish: Wochenplan wurde aktualisiert
+
+    schedules:
+      create:
+        success: Wochenplan wurde erfolgreich erstellt.
+        error: Wochenplan konnte nicht erstellt werden.
+      update:
+        success: Wochenplan wurden erfolgreich aktualisiert.
+        error: Wochenplan konnte nicht geändert werden.
+      destroy:
+        success: Wochenplan wurden erfolgreich gelöscht
+        error: Wochenplan konnte nicht gelöscht werden
+
+    shift_categories:
+      create:
+        success: Abteilung wurde erfolgreich erstellt.
+        error: Abteilung konnte nicht erstellt werden.
+      update:
+        success: Abteilung wurden erfolgreich aktualisiert.
+        error: Abteilung konnte nicht geändert werden.
+      destroy:
+        success: Abteilung wurden erfolgreich gelöscht
+        error: Abteilung konnte nicht gelöscht werden
+
+    shift_categories_users:
+      create:
+        success: Zuordnung wurde erfolgreich erstellt.
+        error: Zuordnung konnte nicht erstellt werden.
+      update:
+        success: Zuordnung wurden erfolgreich aktualisiert.
+        error: Zuordnung konnte nicht geändert werden.
+      destroy:
+        success: Zuordnung wurden erfolgreich gelöscht
+        error: Zuordnung konnte nicht gelöscht werden
+
+    shifts:
+      create:
+        success: Schicht wurde erfolgreich erstellt.
+        error: Schicht konnte nicht erstellt werden.
+      update:
+        success: Schicht wurden erfolgreich aktualisiert.
+        error: Schicht konnte nicht geändert werden.
+      destroy:
+        success: Schicht wurden erfolgreich gelöscht
+        error: Schicht konnte nicht gelöscht werden
+
+    users:
+      create:
+        success: Mitarbeiter wurde erfolgreich erstellt.
+        error: Mitarbeiter konnte nicht erstellt werden.
+      update:
+        success: Mitarbeiter wurden erfolgreich aktualisiert.
+        error: Mitarbeiter konnte nicht geändert werden.
+      destroy:
+        success: Mitarbeiter wurden erfolgreich gelöscht
+        error: Mitarbeiter konnte nicht gelöscht werden
+
+    email_template:
+      update:
+        success: Email Templates wurden erfolgreich aktualisiert.
+        error: Email Templates konten nicht geändert werden. bitte fehler beheben.
+
+  ## FAETURES STARTSEITE
+  features:
+    dashboard: Übersicht
+    users: Mitarbeiter
+    schedules: Wochenpläne
+    shift_categories: Abteilungen
+    log: Protokoll
+    reports: Auswertung
+    questions: Wissensportal
+    news_items: Mitteilungen
+    files: Dateien
+  
+  cancan:
+    access_denied: Zugang ist verboten!
+
+
+
+
+
+
+
+
