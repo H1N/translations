@@ -279,8 +279,8 @@ de:
       template: 
         body: "Bitte überprüfen Sie die folgenden Felder:"
         header: 
-          one: "Konnte %{model} nicht speichern: ein Fehler."
-          other: "Konnte %{model} nicht speichern: %{count} Fehler."
+          one: "%{model} konnte nicht gespeichert werden"
+          other: " %{model} konnte nicht speichern: %{count} Fehler."
   activerecord: 
     errors: 
       full_messages:
@@ -289,20 +289,20 @@ de:
         account:
           attributes:
             subdomain:
-              format: 'Die Subdomain kann nur Zahlen, Buchstaben oder Bindestrich enthalten: a-Z,0-9,- keine Umlaute.'
-              exclusion: 'Die Subdomain ist reserviert.'
+              format: 'Die Subdomain darf nur Zahlen, Buchstaben oder Bindestrich enthalten und keine Umlaute: a-Z,0-9,-.'
+              exclusion: 'Diese Subdomain ist bereits vergeben.'
         shift:
           attributes:
             starts_at:
-              shoul_be_in_schedule: 'muss in diesem Wochenplan liegen'
+              shoul_be_in_schedule: 'muss in dem ausgewählten Wochenplan liegen'
             ends_at:
               should_be_later_than_starts_at: 'muss später als das Anfangsdatum sein'
               should_be_longer_than_10_minutes: 'muss länger als 10 Minuten sein'
         
       messages: 
-        wrong_size: "is the wrong size (should be %{file_size})"
-        size_too_small: "is to small (should be at least %{file_size})"
-        size_too_big: "is to big (should be at most %{file_size})"
+        wrong_size: "falsche Größe (should be %{file_size})"
+        size_too_small: "ist zu klein (should be at least %{file_size})"
+        size_too_big: "ist zu groß (should be at most %{file_size})"
         accepted: "muss akzeptiert werden"
         blank: "muss ausgefüllt werden"
         confirmation: "stimmt nicht mit der Bestätigung überein"
@@ -312,7 +312,7 @@ de:
         exclusion: "ist nicht verfügbar"
         greater_than: "muss größer als %{count} sein"
         greater_than_or_equal_to: "muss größer oder gleich %{count} sein"
-        inclusion: "ist kein gültiger Wert"
+        inclusion: "ungültiger Wert"
         invalid: "ist nicht gültig"
         less_than: "muss kleiner als %{count} sein"
         less_than_or_equal_to: "muss kleiner oder gleich %{count} sein"
@@ -324,13 +324,13 @@ de:
         too_long: "ist zu lang (nicht mehr als %{count} Zeichen)"
         too_short: "ist zu kurz (nicht weniger als %{count} Zeichen)"
         wrong_length: "hat die falsche Länge (muss genau %{count} Zeichen haben)"
-        user_already_added: "User already added"
+        user_already_added: "Nutzer wurde bereits hinzugefügt"
 
       template: 
         body: "Bitte überprüfen Sie die folgenden Felder:"
         header: 
-          one: "Konnte %{model} nicht speichern: ein Fehler."
-          other: "Konnte %{model} nicht speichern: %{count} Fehler."
+          one: "Fehler: Konnte %{model} nicht speichern."
+          other: "%{count} Fehler: Konnte %{model} nicht speichern."
 
     attributes:
       application:
@@ -429,7 +429,7 @@ de:
 
       shift_category:
         tos: Nutzungsbedingungen
-        tos_accepted_mandatory: Das Akzeptieren der Nutzungsbedingungen ist für den Mitarbeiter ist pflicht
+        tos_accepted_mandatory: Das Akzeptieren der Nutzungsbedingungen ist für den Mitarbeiter pflicht.
         
       news_item:
         shift_category: Abteilung
