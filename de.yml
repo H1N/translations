@@ -1083,6 +1083,8 @@ de:
     full_shifts_tooltip: Besetzte Schichten
     not_full_shifts_tooltip: Unterbesetzte Schichten
     edit_details: "Details bearbeiten »"
+    tipps: 
+      how_to_publish: "wenn du einen plan an deinen mitarbei"
     
   form_field:
     success_update_message: 'Custom Form Fields wurden erfolgreich aktualisiert.'
@@ -1420,10 +1422,11 @@ de:
   
   cancan:
     access_denied: Zugang ist verboten!
+    
 
-
-
-
+  # Translation for wizard
+  wizard:
+    asdasasdas: "Auswertung: anfangen"
 
 
 
