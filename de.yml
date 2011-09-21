@@ -1046,15 +1046,15 @@ de:
     schedule_information: "<strong>%{shift_count}</strong> Schicht(en) vorhanden und noch <strong>%{assignments_count}</strong> Belegungen übrig"
     schedule_information_overcrowding: "<strong>%{shift_count}</strong> Schicht(en) vorhanden und <i><strong>%{assignments_count}</strong></i> Überbelegungen vorhanden"
     no_shifts_available_yet: keine Schichten vorhanden
-    add_shifts: "Schichten anlege &raquo;"
+    add_shifts: "Schichten anlegen &raquo;"
     choose_plan: Wochenplan wählen
     page_title: "Plan für die Wochen %{week} | %{period_string}"
     add_shift: neue Schicht
-    add_shift_title: Sie können Schichten auch per Drag and Drop direkt im Kalender hinzufügen.
-    staff_drag_and_drop_hint: Ziehen sie mit der Maus Mitarbeiter auf eine Schicht um sie der Schicht hinzuzufügen.
+    add_shift_title: Schichten können auch direkt per drag & drop im Kalender hinzufügt werden.
+    staff_drag_and_drop_hint: Ziehen sie mit der Maus Mitarbeiter auf eine Schicht, um sie der Schicht hinzuzufügen.
     user_with_dad: Mitarbeiter <small>Drag and Drop</small>
     display_categories: "Abteilungen anzeigen:"
-    display_shift_categories_by_applications: Farben nach Belegung
+    display_shift_categories_by_applications: Belegungsstatus anzeigen
     import_shifts_hint: Sie können Schichten aus einem vorhandenen Wochenplan hinzufügen
     import_shifts: Schichten importieren
     import_with_assinments_title: Es werden alle vorhandenen Belegungen aus der Schicht mit übernommen
@@ -1079,6 +1079,7 @@ de:
     state: Status
     current_upcoming_schedules: Aktueller und kommende Pläne
     deleted: Plan wurde gelöscht
+    shift_assignment_by_color_tooltip_header: Ist dieses Feld aktiviert, wird der Belegungsstatus farblich angezeigt. Ist das Feld deaktiviert, werden die Schichten nach den Abteilungen farblich dargestellt.
     your_shifts_tooltip: Schicht in der du besetzt bist
     full_shifts_tooltip: Besetzte Schichten
     not_full_shifts_tooltip: Unterbesetzte Schichten
